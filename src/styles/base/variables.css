@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --color-primary: #2955A4;    /* niebieski */
+  --color-secondary: #E85024;  /* pomarańczowy */
+  --color-text: #202B4B;      /* ciemny niebieski do tekstu */
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  
+  /* Layout */
+  --container-max-width: 1696px;
+  --border-radius-lg: 20px;
+  --border-radius-sm: 12px;
+} 

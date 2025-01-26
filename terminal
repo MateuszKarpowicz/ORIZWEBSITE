@@ -1,0 +1,40 @@
+mkdir -p src/components/cards
+mv src/components/FullCard.jsx src/components/cards/
+mv src/components/MiniCard.jsx src/components/cards/ 
+rm src/components/layout/Navbar.css
+rm src/components/layout/Footer.css 
+mkdir -p src/styles/{base,layout,components,pages} 
+rm src/components/layout/Layout.css 
+mkdir -p src/assets/{images,icons} 
+mkdir -p src/styles/ui/logo
+mv src/components/ui/Logo/Logo.css src/styles/ui/logo/logo.css
+touch src/assets/icons/plane.svg 
+npm run dev 
+npm install react-icons 
+
+# 1. Backup ważnych plików
+cp src/components/ui/Logo/Logo.jsx src/components/ui/Logo.jsx.backup
+
+# 2. Usuwamy stare struktury
+rm -rf src/components/ui/Logo
+rm -rf src/styles/ui
+rm -rf src/assets/icons
+
+# 3. Tworzymy nową strukturę
+mkdir -p src/components/ui
+mkdir -p src/styles/{base,layout}
+
+# 4. Przywracamy Logo.jsx w nowej lokalizacji
+mv src/components/ui/Logo.jsx.backup src/components/ui/Logo.jsx
+
+# 5. Upewniamy się, że mamy wszystkie potrzebne pliki CSS
+touch src/styles/layout/{layout,navbar,footer}.css
+touch src/styles/base/variables.css
+
+ls -l src/assets/images/logo.svg 
+touch src/styles/layout/layout.css 
+
+tree src 
+
+mkdir -p src/context
+touch src/context/CategoryContext.jsx 

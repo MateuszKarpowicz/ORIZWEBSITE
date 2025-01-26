@@ -1,0 +1,6 @@
+@import './base/variables.css';
+@import './layout/layout.css';
+@import './layout/navbar.css';
+@import './layout/footer.css';
+@import './components/cards.css';
+@import './pages/main.css';

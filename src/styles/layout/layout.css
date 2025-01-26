@@ -1,0 +1,25 @@
+@import '../base/variables.css';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--color-white);
+  font-family: var(--font-family);
+  overflow-x: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
+  position: relative;
+  height: 100vh; /* stała wysokość */
+}
+
+.layout__content {
+  flex: 1;
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+  overflow-y: auto; /* scrollowanie tylko contentu */
+  display: flex;
+  flex-direction: column;
+} 

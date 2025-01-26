@@ -3,9 +3,10 @@ export const destinations = [
     id: 'londyn',
     title: 'LONDYN',
     slug: 'londyn',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1099,
-    thumbnail: '/images/destinations/londyn-thumb.jpg',
-    mainImage: '/images/destinations/londyn-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Londyn to miasto, które nigdy nie przestaje zachwycać. 
     Historyczne zabytki jak Big Ben czy Tower Bridge harmonijnie współgrają 
     z nowoczesnymi budynkami jak The Shard. Spacerując po Covent Garden, 
@@ -15,9 +16,10 @@ export const destinations = [
     id: 'malta',
     title: 'MALTA',
     slug: 'malta',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1099,
-    thumbnail: '/images/destinations/malta-thumb.jpg',
-    mainImage: '/images/destinations/malta-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Malta to wyspiarski kraj, gdzie historia spotyka się 
     z krystalicznie czystym morzem. Średniowieczne miasta, złote plaże 
     i błękitne laguny tworzą niezapomnianą mozaikę wrażeń...`
@@ -26,9 +28,10 @@ export const destinations = [
     id: 'barcelona',
     title: 'BARCELONA',
     slug: 'barcelona',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1199,
-    thumbnail: '/images/destinations/barcelona-thumb.jpg',
-    mainImage: '/images/destinations/barcelona-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Barcelona to miasto Gaudiego, modernizmu i katalońskiej dumy. 
     Sagrada Familia, Park Güell i La Rambla to tylko początek atrakcji. 
     Lokalne tapas, plaże i niepowtarzalna atmosfera...`
@@ -37,9 +40,10 @@ export const destinations = [
     id: 'usa',
     title: 'USA',
     slug: 'usa',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 4999,
-    thumbnail: '/images/destinations/usa-thumb.jpg',
-    mainImage: '/images/destinations/usa-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Stany Zjednoczone to kraj nieograniczonych możliwości. 
     Od Nowego Jorku po Los Angeles, od Wielkiego Kanionu po Hawaje...`
   },
@@ -47,9 +51,10 @@ export const destinations = [
     id: 'azja',
     title: 'AZJA',
     slug: 'azja',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 3999,
-    thumbnail: '/images/destinations/azja-thumb.jpg',
-    mainImage: '/images/destinations/azja-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Azja to kontynent kontrastów. Nowoczesne metropolie 
     sąsiadują tu z pradawnymi świątyniami. Odkryj smaki, zapachy i kolory Orientu...`
   },
@@ -57,9 +62,10 @@ export const destinations = [
     id: 'ateny',
     title: 'ATENY',
     slug: 'ateny',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1299,
-    thumbnail: '/images/destinations/ateny-thumb.jpg',
-    mainImage: '/images/destinations/ateny-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Ateny to kolebka europejskiej cywilizacji. Akropol, 
     Partenon i starożytna Agora przypominają o wielkich początkach...`
   },
@@ -67,9 +73,10 @@ export const destinations = [
     id: 'neapol',
     title: 'NEAPOL',
     slug: 'neapol',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1199,
-    thumbnail: '/images/destinations/neapol-thumb.jpg',
-    mainImage: '/images/destinations/neapol-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Neapol to miasto pełne pasji. Najlepsza pizza na świecie, 
     Wezuwiusz i ruiny Pompejów tworzą niezapomniane włoskie doświadczenie...`
   },
@@ -77,9 +84,10 @@ export const destinations = [
     id: 'teneryfa',
     title: 'TENERYFA',
     slug: 'teneryfa',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 2099,
-    thumbnail: '/images/destinations/teneryfa-thumb.jpg',
-    mainImage: '/images/destinations/teneryfa-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Teneryfa to wyspa wiecznej wiosny. Wulkan Teide, 
     czarne plaże i malownicze miasteczka tworzą raj na Atlantyku...`
   },
@@ -87,9 +95,10 @@ export const destinations = [
     id: 'edynburg',
     title: 'EDYNBURG',
     slug: 'edynburg',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1399,
-    thumbnail: '/images/destinations/edynburg-thumb.jpg',
-    mainImage: '/images/destinations/edynburg-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Edynburg to miasto legend i festiwali. Średniowieczne 
     Stare Miasto, zamek na wzgórzu i szkocka gościnność...`
   },
@@ -97,9 +106,10 @@ export const destinations = [
     id: 'dublin',
     title: 'DUBLIN',
     slug: 'dublin',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1299,
-    thumbnail: '/images/destinations/dublin-thumb.jpg',
-    mainImage: '/images/destinations/dublin-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Dublin to miasto literatury i muzyki. Temple Bar, 
     Guinness Storehouse i irlandzka gościnność czekają...`
   },
@@ -107,10 +117,51 @@ export const destinations = [
     id: 'lizbona',
     title: 'LIZBONA',
     slug: 'lizbona',
+    category: 'wycieczki-zagraniczne',
     priceFrom: 1499,
-    thumbnail: '/images/destinations/lizbona-thumb.jpg',
-    mainImage: '/images/destinations/lizbona-main.jpg',
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
     description: `Lizbona to miasto siedmiu wzgórz. Tramwaje, fado, 
     pastéis de nata i oceaniczne widoki tworzą portugalską magię...`
+  },
+  {
+    id: 'krakow',
+    title: 'KRAKÓW',
+    slug: 'krakow',
+    category: 'wycieczki-krajowe',
+    priceFrom: 599,
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
+    description: `Kraków - dawna stolica Polski, miasto królów i zabytków...`
+  },
+  {
+    id: 'obozy-sportowe',
+    title: 'OBOZY SPORTOWE',
+    slug: 'obozy-sportowe',
+    category: 'obozy-sportowe',
+    priceFrom: 1499,
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
+    description: `Aktywne wakacje dla młodzieży. Profesjonalni trenerzy, świetna atmosfera...`
+  },
+  {
+    id: 'obozy-jezykowe',
+    title: 'OBOZY JĘZYKOWE',
+    slug: 'obozy-jezykowe',
+    category: 'obozy-jezykowe',
+    priceFrom: 1699,
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
+    description: `Nauka języków poprzez zabawę i integrację. Native speakerzy...`
+  },
+  {
+    id: 'zaproponuj-wycieczke',
+    title: 'ZAPROPONUJ WYCIECZKĘ',
+    slug: 'zaproponuj-wycieczke',
+    category: 'zaproponuj-wycieczke',
+    priceFrom: null,
+    thumbnail: '/src/assets/mok.png',
+    mainImage: '/src/assets/mok.png',
+    description: `Masz pomysł na wycieczkę? Pozwól nam pomóc w jej organizacji...`
   }
 ]; 

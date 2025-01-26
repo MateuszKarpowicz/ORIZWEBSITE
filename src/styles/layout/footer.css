@@ -1,0 +1,46 @@
+@import '../base/variables.css';
+
+.footer {
+  width: 100%;
+  background: var(--color-primary);
+  border-radius: var(--border-radius-lg);
+  padding: 20px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 16px;
+}
+
+.footer__icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-white);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer__link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ... reszta stylów dla footera ... */ 
