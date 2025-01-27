@@ -21,7 +21,6 @@ function FullCard({ destination }) {
         </div>
         
         <div className="full-card__details">
-          {/* Tu dodamy szczegóły wycieczki */}
           <div className="full-card__detail">
             <span className="full-card__detail-label">Termin:</span>
             <span className="full-card__detail-value">Do ustalenia</span>
