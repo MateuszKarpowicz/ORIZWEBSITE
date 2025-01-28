@@ -1,18 +1,19 @@
 .main-page {
-  padding: 40px 0;
   position: relative;
   max-width: calc(392px * 3 + 40px); /* 3 karty + 2 odstępy */
   margin: 0 auto;
 }
 
 .destinations-grid {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  padding: 20px;
-  margin-top: 40px; /* miejsce na strzałki */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  overflow: hidden;
+  flex: 1; /* zajmuje całą dostępną przestrzeń */
+  padding: 0;
 }
 
 .destinations-grid::-webkit-scrollbar {
@@ -21,8 +22,24 @@
 
 /* Tymczasowy placeholder dla obrazków */
 .mini-card__image {
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
-              url('https://via.placeholder.com/392x481') center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://via.placeholder.com/392x481") center/cover;
+  transition: all 0.3s ease;
+  filter: brightness(0.7);
+}
+
+.mini-card:hover .mini-card__image {
+  filter: brightness(1);
+  transform: none;
+}
+
+/* Usuwamy poprzedni efekt hover jeśli istnieje */
+.mini-card {
+  transition: none;
+}
+
+.mini-card:hover {
+  transform: none;
 }
 
 /* Dla mniejszych ekranów */
@@ -40,30 +57,37 @@
   }
 }
 
-/* Style dla przycisków */
+/* Container dla całej sekcji */
+.destinations {
+  position: relative;
+  width: 100%;
+  padding: 0 60px;
+}
+
+/* Style dla przycisków przewijania */
 .scroll-button {
   position: absolute;
-  top: 0; /* strzałki na górze */
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--color-primary);
-  color: var(--color-white);
+  top: 40%;
+  transform: translateY(-50%);
+  width: 65px;
+  height: 65px;
+  background: var(--color-secondary);
   border: none;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
 .scroll-button--left {
-  right: 60px; /* 20px gap + 40px szerokość drugiego przycisku */
+  left: -100px;
 }
 
 .scroll-button--right {
-  right: 0;
+  right: -100px;
 }
 
 .category-filters {
@@ -89,4 +113,4 @@
 .category-filter--active {
   background: var(--color-primary);
   color: var(--color-white);
-} 
+}

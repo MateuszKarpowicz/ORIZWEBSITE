@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import { useState } from "react";
 
 function MiniCard({ destination }) {
   const [imageError, setImageError] = useState(false);
@@ -9,22 +9,18 @@ function MiniCard({ destination }) {
     <Link to={`/destination/${destination.slug}`} className="mini-card">
       <div className="mini-card__image-container">
         {imageError ? (
-          <div className="mini-card__placeholder">
-            {destination.title}
-          </div>
+          <div className="mini-card__placeholder">{destination.title}</div>
         ) : (
-          <img 
+          <img
             src="src/Assets/images/mok.png"
-            alt={destination.title} 
+            alt={destination.title}
             className="mini-card__image"
             onError={() => setImageError(true)}
           />
         )}
       </div>
       <div className="mini-card__content">
-        <div className="mini-card__price">
-          od {destination.priceFrom}zł
-        </div>
+        <div className="mini-card__price">{destination.priceFrom}</div>
         <div className="mini-card__title-container">
           <h2 className="mini-card__title">{destination.title}</h2>
         </div>
@@ -38,8 +34,8 @@ MiniCard.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
-    priceFrom: PropTypes.number
-  }).isRequired
+    priceFrom: PropTypes.number,
+  }).isRequired,
 };
 
 export default MiniCard;

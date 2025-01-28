@@ -1,6 +1,25 @@
-@import './base/variables.css';
-@import './layout/layout.css';
-@import './layout/navbar.css';
-@import './layout/footer.css';
-@import './components/cards.css';
-@import './pages/main.css';
+@import "./base/variables.css";
+@import "./layout/layout.css";
+@import "./layout/navbar.css";
+@import "./layout/footer.css";
+@import "./components/cards.css";
+@import "./pages/main.css";
+@import "./base/reset.css";
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

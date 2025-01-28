@@ -6,18 +6,22 @@
   border-radius: 35px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  box-shadow: none;
+  border: none;
+  background: var(--color-white); /* dodajemy białe tło */
 }
 
 .mini-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: none;
+  box-shadow: none;
 }
 
 .mini-card__image-container {
   width: 100%;
   height: 481px;
   position: relative;
-  background: rgba(41, 85, 164, 0.1);
+  background: var(--color-white); /* zmieniamy tło na białe */
+  border-radius: 35px; /* przywracamy zaokrąglenie */
 }
 
 .mini-card__image {
@@ -30,15 +34,15 @@
 .mini-card__price {
   position: absolute;
   top: -17px;
-  right: -17px;
+  right: -10px;
   width: 130px;
   height: 130px;
-  background: #EF5022;
+  background: #ef5022;
   border-radius: 50%;
-  color: #FFFFFF;
-  font-size: 32px;
+  color: #ffffff;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 39px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,21 +54,23 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 294px;
-  height: 66px;
-  background: #FFFFFF;
-  border-radius: 35px;
+  width: 230px;
+  height: 60px;
+  background: var(--color-secondary); /* używamy zmiennej dla spójności */
+  border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
+  box-shadow: none;
+  border: none;
 }
 
 .mini-card__title {
-  color: #2955A4;
-  font-size: 36px;
-  font-weight: 800;
-  line-height: 44px;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
   margin: 0;
   text-align: center;
 }
@@ -138,4 +144,4 @@
   color: var(--color-primary);
   text-align: center;
   padding: 20px;
-} 
+}

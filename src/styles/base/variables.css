@@ -1,15 +1,18 @@
 :root {
   /* Colors */
-  --color-primary: #2955A4;    /* niebieski */
-  --color-secondary: #E85024;  /* pomarańczowy */
-  --color-text: #202B4B;      /* ciemny niebieski do tekstu */
-  --color-white: #FFFFFF;
+  --color-primary: #2955a4; /* niebieski */
+  --color-secondary: #e85024; /* pomarańczowy */
+  --color-text: #202b4b; /* ciemny niebieski do tekstu */
+  --color-white: #ffffff;
+  --color-primary-dark: #0056b3; /* ciemniejsza wersja koloru primary */
 
   /* Typography */
-  --font-family: 'Inter', sans-serif;
-  
+  --font-family-main: "Inter", sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+  --border-radius: 20px;
   /* Layout */
   --container-max-width: 1696px;
   --border-radius-lg: 20px;
   --border-radius-sm: 12px;
-} 
+}

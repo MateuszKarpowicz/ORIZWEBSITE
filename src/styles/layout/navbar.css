@@ -1,21 +1,30 @@
-@import '../base/variables.css';
+@import "../base/variables.css";
 
 /* Logo styles */
 .logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  display: block;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   transition: transform 0.3s ease;
+  cursor: pointer;
+  outline: none;
 }
 
 .logo:hover {
   transform: translateX(-50%) scale(1.1);
 }
 
+.logo:focus {
+  outline: none;
+}
+
 .logo__image {
-  height: 60px;
+  max-height: 200px;
   width: auto;
   display: block;
   transition: transform 0.3s ease;
@@ -25,7 +34,7 @@
 .navbar {
   width: 100%;
   background: var(--color-white);
-  padding: 0 20px;
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -40,17 +49,20 @@
   align-items: center;
   position: relative;
   height: 44px;
-  margin-top: 55px;
-  padding: 0 20px;
+  padding: 20px 20px;
 }
 
 .navbar__section {
   display: flex;
   align-items: center;
-  gap: 24px;
+  justify-content: center;
+  gap: 100px;
 }
 
 .navbar__section--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -81,15 +93,24 @@
   text-decoration: none;
   font-family: var(--font-family);
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--color-primary);
+}
+
+.navbar__link:focus {
+  outline: none;
 }
 
 /* Niebieski przycisk */
 .navbar__button {
   width: 227px;
-  height: 33px;
+  height: 30px;
   background: var(--color-primary);
   border-radius: 20px;
   color: var(--color-white);
@@ -99,22 +120,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.navbar__button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.navbar__button:focus {
+  outline: none;
 }
 
 /* Dolny pasek z kategoriami */
 .navbar__container__lower {
   margin-top: 24px;
+  width: 100%;
 }
 
 .navbar__filter {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .navbar__filter__button {
+  width: 100%;
+  max-width: var(--container-max-width);
   display: flex;
-  gap: 65px;
-  position: relative;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .navbar__filter__button__item {
@@ -131,18 +166,19 @@
   padding: 24px;
   position: relative;
   transition: color 0.3s ease;
+  flex: 1;
 }
 
-/* Separatory między kategoriami */
+/* Modyfikujemy separator, aby działał z nowym układem */
 .navbar__filter__button__item:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
-  width: 65px;
-  height: 1px;
+  width: 1px;
+  height: 24px;
   background: #000000;
-  transform: rotate(90deg);
-  right: -32px;
+  right: 0;
   top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Style dla aktywnego przycisku */
@@ -152,7 +188,7 @@
 }
 
 .navbar__filter__button__item--active::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 15px;
   left: 50%;
@@ -168,4 +204,9 @@
   color: var(--color-primary);
 }
 
-/* ... reszta stylów dla nawigacji ... */ 
+/* ... reszta stylów dla nawigacji ... */
+
+/* Usuwamy ramkę również dla przycisków */
+.navbar__filter__button__item:focus {
+  outline: none;
+}
