@@ -1,15 +1,17 @@
-import { useCategory } from '../context/CategoryContext';
+import { useLocation } from 'react-router-dom';
 import { destinations } from '../data/destinations';
 import MiniCard from '../components/cards/MiniCard';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 function MainPage() {
-  const { activeCategories } = useCategory();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const location = useLocation();
   
-  const filteredDestinations = destinations.filter(dest => 
-    activeCategories.size === 0 || activeCategories.has(dest.category)
-  );
+  const currentCategory = location.pathname.slice(1) || 'all';
+  
+  const filteredDestinations = currentCategory === 'all' 
+    ? destinations 
+    : destinations.filter(dest => dest.category === currentCategory);
 
   const scroll = (direction) => {
     if (direction === 'right') {
