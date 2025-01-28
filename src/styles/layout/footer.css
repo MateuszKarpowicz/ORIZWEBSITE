@@ -48,17 +48,20 @@
   flex-direction: column;
   gap: 4px;
   max-width: 250px;
+  align-items: center;
 }
 
 .footer__logo {
-  height: 30px;
+  height: 40px;
   width: auto;
+  filter: brightness(0) invert(1); /* To zmieni logo na białe */
 }
 
 .footer__motto {
   color: var(--color-white);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
+  padding: 10px 0;
 }
 
 .footer__copyright {
@@ -68,19 +71,19 @@
 
 .footer__columns {
   display: flex;
-  gap: 60px;
+  gap: 100px;
   align-items: flex-start;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
 }
 
 .footer__column-title {
   color: var(--color-white);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   margin-bottom: 4px;
 }
@@ -124,6 +127,7 @@
 
 .footer__social {
   display: flex;
+
   gap: 16px;
   align-items: center;
   margin-left: 60px;
@@ -132,7 +136,7 @@
 
 .footer__social-link {
   color: var(--color-white);
-  font-size: 16px;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 
