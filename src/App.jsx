@@ -4,6 +4,7 @@ import MainPage from './pages/MainPage';
 import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
 import ProposeTrip from './pages/ProposeTrip';
+import DestinationPage from './pages/DestinationPage';
 import { CategoryProvider } from './context/CategoryContext';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="obozy-sportowe" element={<MainPage />} />
             <Route path="obozy-jezykowe" element={<MainPage />} />
             <Route path="zaproponuj-wycieczke" element={<ProposeTrip />} />
+            <Route path="destination/:slug" element={<DestinationPage />} />
           </Route>
         </Routes>
       </Router>
