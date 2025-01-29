@@ -5,8 +5,8 @@ export const destinations = [
     slug: "londyn",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/londyn.png",
+    mainImage: "/src/assets/images/trips/londyn.png",
     description: `Z jednej strony tygiel kulturowy zamieszkały przez reprezentantów 
       prawdopodobnie wszystkich grup etnicznych. Z drugiej kwintesencja 
       brytyjskości emanująca wiktoriańską powagą i dumą. Nie tylko te dwa 
@@ -31,8 +31,8 @@ export const destinations = [
     slug: "malta",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/trips/malta.png",
-    mainImage: "/src/assets/trips/malta.png",
+    thumbnail: "/src/assets/images/trips/malta.png",
+    mainImage: "/src/assets/images/trips/malta.png",
     description: `Malta to wyjątkowy kierunek na wycieczkę szkolną, który łączy fascynującą 
       historię, różnorodną kulturę i malownicze krajobrazy. Ta śródziemnomorska 
       wyspa oferuje niezliczone możliwości edukacyjne i wrażenia, które na długo 
@@ -55,8 +55,8 @@ export const destinations = [
     slug: "barcelona",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/barcelona.png",
+    mainImage: "/src/assets/images/trips/barcelona.png",
     description: `Barcelona to idealny kierunek na wycieczkę szkolną, który łączy edukację 
       z niezapomnianymi wrażeniami. Stolica Katalonii zachwyca swoją różnorodnością 
       – od niezwykłych dzieł Antoniego Gaudíego, takich jak Sagrada Família i Park 
@@ -80,8 +80,8 @@ export const destinations = [
     slug: "usa",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/usa.png",
+    mainImage: "/src/assets/images/trips/usa.png",
     description: `Stany Zjednoczone to kraj nieograniczonych możliwości, gdzie każdy stan 
       oferuje unikalne doświadczenia i niezapomniane wrażenia. Od tętniącego 
       życiem Nowego Jorku, przez malowniczy Wielki Kanion, aż po słoneczne 
@@ -100,8 +100,8 @@ export const destinations = [
     slug: "azja",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/asia.png",
+    mainImage: "/src/assets/images/trips/asia.png",
     description: `Azja to fascynujący kontynent kontrastów, gdzie nowoczesne metropolie 
       harmonijnie współistnieją z pradawnymi świątyniami. To miejsce, gdzie 
       tradycja spotyka się z przyszłością, tworząc niepowtarzalną mozaikę 
@@ -121,8 +121,8 @@ export const destinations = [
     slug: "ateny",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/ateny.png",
+    mainImage: "/src/assets/images/trips/ateny.png",
     description: `Ateny to miasto, które przenosi w czasie, oferując młodzieży możliwość odkrycia kolebki europejskiej cywilizacji. Wycieczka szkolna do stolicy Grecji to fascynująca podróż przez historię, mitologię i architekturę. Na uczniów czekają ikoniczne zabytki, takie jak Akropol z Partenonem, Świątynia Zeusa Olimpijskiego czy starożytna Agora, które pozwalają na głębsze zrozumienie kultury antycznej.
 
 Program wycieczki obejmuje także wizytę w nowoczesnym Muzeum Akropolu, gdzie młodzież może zobaczyć wyjątkowe artefakty i zrozumieć kontekst historyczny tych monumentalnych miejsc. Spacer po Place, klimatycznej dzielnicy u stóp Akropolu, ukazuje współczesną, tętniącą życiem stronę Aten.
@@ -135,8 +135,8 @@ Zapewniamy wygodny transport i profesjonalne przewodnictwo, aby uczniowie mogli 
     slug: "neapol",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/neapol.png",
+    mainImage: "/src/assets/images/trips/neapol.png",
     description: `Neapol to idealne miejsce na wycieczkę szkolną, która łączy historię, kulturę i niezwykłe widoki. Miasto u stóp Wezuwiusza oferuje uczniom możliwość poznania starożytnych Pompejów, wpisanych na listę UNESCO, oraz doświadczenia włoskiego stylu życia. Neapol zachwyca także zabytkowymi kościołami, wąskimi uliczkami i wyśmienitą pizzą, która narodziła się właśnie tutaj.
 
 W programie wycieczki znajduje się także wizyta na malowniczej wyspie Capri, gdzie uczniowie mogą podziwiać Lazurową Grotę, urokliwe miasteczka i zapierające dech w piersiach widoki z Monte Solaro. Dzięki komfortowemu transportowi i dopracowanemu planowi zwiedzania, młodzież ma szansę zobaczyć zarówno historyczne zabytki, jak i piękno włoskiej natury.
@@ -149,8 +149,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "teneryfa",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/teneryfa.png",
+    mainImage: "/src/assets/images/trips/teneryfa.png",
     description: `Teneryfa, największa z Wysp Kanaryjskich, to wyjątkowe miejsce na wycieczkę 
       szkolną, które oferuje niezapomniane atrakcje w otoczeniu wulkanicznych 
       krajobrazów i egzotycznej przyrody. W programie wycieczki znajduje się 
@@ -172,8 +172,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "edynburg",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/edynburg.png",
+    mainImage: "/src/assets/images/trips/edynburg.png",
     description: `Edynburg, nazywany "Atenami Północy", to idealne miejsce na wycieczkę 
       szkolną, która łączy historię, kulturę i niesamowite krajobrazy. Stolica 
       Szkocji oferuje niezapomniane doświadczenia, od zwiedzania majestatycznego 
@@ -196,8 +196,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "dublin",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/dublin.png",
+    mainImage: "/src/assets/images/trips/dublin.png",
     description: `Dublin, serce Irlandii, to miejsce, które idealnie łączy historię z 
       nowoczesnością, oferując wyjątkowe doświadczenia dla grup szkolnych. 
       Stolica słynie z przyjaznej atmosfery, a jej najważniejsze atrakcje 
@@ -219,8 +219,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "lizbona",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/lizbona.png",
+    mainImage: "/src/assets/images/trips/lizbona.png",
     description: `Lizbona to niezwykła stolica Portugalii, idealna na wycieczkę szkolną, 
       która łączy historię, kulturę i piękne widoki. Miasto zachwyca swoim 
       niepowtarzalnym klimatem – od wąskich uliczek Alfamy po majestatyczne 
@@ -243,8 +243,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "krakow",
     category: "wycieczki-krajowe",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/krakow.png",
+    mainImage: "/src/assets/images/trips/krakow.png",
     description: `Kraków to jedno z najpiękniejszych miast Polski, które oferuje niezliczone 
       atrakcje dla grup szkolnych. Dawna stolica kraju jest miejscem, gdzie 
       historia, kultura i tradycja przenikają się na każdym kroku, zapewniając 
@@ -266,8 +266,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "obozy-sportowe",
     category: "obozy-sportowe",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/skate.png",
+    mainImage: "/src/assets/images/trips/skate.png",
     description: `Nasze obozy sportowe to idealne połączenie aktywnego wypoczynku, 
       profesjonalnego treningu i świetnej zabawy. Pod okiem doświadczonych 
       trenerów młodzież rozwija swoje umiejętności w wybranej dyscyplinie 
@@ -287,8 +287,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "obozy-jezykowe",
     category: "obozy-jezykowe",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/school.png",
+    mainImage: "/src/assets/images/trips/school.png",
     description: `Obozy językowe to innowacyjne podejście do nauki języków obcych, gdzie 
       edukacja spotyka się z rozrywką. Zajęcia prowadzone przez native speakerów 
       i doświadczonych lektorów odbywają się w formie interaktywnych warsztatów, 
