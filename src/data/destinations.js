@@ -7,8 +7,7 @@ export const destinations = [
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Z jednej strony tygiel kulturowy zamieszkały przez reprezentantów 
+    description: `Z jednej strony tygiel kulturowy zamieszkały przez reprezentantów 
       prawdopodobnie wszystkich grup etnicznych. Z drugiej kwintesencja 
       brytyjskości emanująca wiktoriańską powagą i dumą. Nie tylko te dwa 
       oblicza są prawdziwe. Londyn ma wiele twarzy i masek, a co za tym idzie, 
@@ -32,10 +31,9 @@ export const destinations = [
     slug: "malta",
     category: "wycieczki-zagraniczne",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
-    description: 
-      `Malta to wyjątkowy kierunek na wycieczkę szkolną, który łączy fascynującą 
+    thumbnail: "/src/assets/trips/malta.png",
+    mainImage: "/src/assets/trips/malta.png",
+    description: `Malta to wyjątkowy kierunek na wycieczkę szkolną, który łączy fascynującą 
       historię, różnorodną kulturę i malownicze krajobrazy. Ta śródziemnomorska 
       wyspa oferuje niezliczone możliwości edukacyjne i wrażenia, które na długo 
       pozostają w pamięci. Od stolicy Valletty, wpisanej na listę UNESCO, po 
@@ -59,8 +57,7 @@ export const destinations = [
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Barcelona to idealny kierunek na wycieczkę szkolną, który łączy edukację 
+    description: `Barcelona to idealny kierunek na wycieczkę szkolną, który łączy edukację 
       z niezapomnianymi wrażeniami. Stolica Katalonii zachwyca swoją różnorodnością 
       – od niezwykłych dzieł Antoniego Gaudíego, takich jak Sagrada Família i Park 
       Güell, po klimatyczne uliczki gotyckiej dzielnicy El Born. Uczniowie mają 
@@ -85,8 +82,7 @@ export const destinations = [
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Stany Zjednoczone to kraj nieograniczonych możliwości, gdzie każdy stan 
+    description: `Stany Zjednoczone to kraj nieograniczonych możliwości, gdzie każdy stan 
       oferuje unikalne doświadczenia i niezapomniane wrażenia. Od tętniącego 
       życiem Nowego Jorku, przez malowniczy Wielki Kanion, aż po słoneczne 
       plaże Hawajów - każde miejsce opowiada swoją własną historię.
@@ -106,8 +102,7 @@ export const destinations = [
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Azja to fascynujący kontynent kontrastów, gdzie nowoczesne metropolie 
+    description: `Azja to fascynujący kontynent kontrastów, gdzie nowoczesne metropolie 
       harmonijnie współistnieją z pradawnymi świątyniami. To miejsce, gdzie 
       tradycja spotyka się z przyszłością, tworząc niepowtarzalną mozaikę 
       kulturową.
@@ -156,8 +151,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Teneryfa, największa z Wysp Kanaryjskich, to wyjątkowe miejsce na wycieczkę 
+    description: `Teneryfa, największa z Wysp Kanaryjskich, to wyjątkowe miejsce na wycieczkę 
       szkolną, które oferuje niezapomniane atrakcje w otoczeniu wulkanicznych 
       krajobrazów i egzotycznej przyrody. W programie wycieczki znajduje się 
       wizyta w Parku Narodowym Teide, gdzie uczniowie mogą zobaczyć najwyższy 
@@ -180,8 +174,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Edynburg, nazywany "Atenami Północy", to idealne miejsce na wycieczkę 
+    description: `Edynburg, nazywany "Atenami Północy", to idealne miejsce na wycieczkę 
       szkolną, która łączy historię, kulturę i niesamowite krajobrazy. Stolica 
       Szkocji oferuje niezapomniane doświadczenia, od zwiedzania majestatycznego 
       Edynburskiego Zamku i spacerów po Royal Mile, po podziwianie panoramy 
@@ -205,8 +198,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Dublin, serce Irlandii, to miejsce, które idealnie łączy historię z 
+    description: `Dublin, serce Irlandii, to miejsce, które idealnie łączy historię z 
       nowoczesnością, oferując wyjątkowe doświadczenia dla grup szkolnych. 
       Stolica słynie z przyjaznej atmosfery, a jej najważniejsze atrakcje 
       przyciągają zarówno miłośników historii, jak i literatury.
@@ -229,8 +221,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Lizbona to niezwykła stolica Portugalii, idealna na wycieczkę szkolną, 
+    description: `Lizbona to niezwykła stolica Portugalii, idealna na wycieczkę szkolną, 
       która łączy historię, kulturę i piękne widoki. Miasto zachwyca swoim 
       niepowtarzalnym klimatem – od wąskich uliczek Alfamy po majestatyczne 
       place i zabytki.
@@ -254,8 +245,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Kraków to jedno z najpiękniejszych miast Polski, które oferuje niezliczone 
+    description: `Kraków to jedno z najpiękniejszych miast Polski, które oferuje niezliczone 
       atrakcje dla grup szkolnych. Dawna stolica kraju jest miejscem, gdzie 
       historia, kultura i tradycja przenikają się na każdym kroku, zapewniając 
       młodzieży wyjątkową lekcję dziedzictwa narodowego.
@@ -278,8 +268,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Nasze obozy sportowe to idealne połączenie aktywnego wypoczynku, 
+    description: `Nasze obozy sportowe to idealne połączenie aktywnego wypoczynku, 
       profesjonalnego treningu i świetnej zabawy. Pod okiem doświadczonych 
       trenerów młodzież rozwija swoje umiejętności w wybranej dyscyplinie 
       sportowej, jednocześnie ucząc się pracy zespołowej i fair play.
@@ -300,8 +289,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Obozy językowe to innowacyjne podejście do nauki języków obcych, gdzie 
+    description: `Obozy językowe to innowacyjne podejście do nauki języków obcych, gdzie 
       edukacja spotyka się z rozrywką. Zajęcia prowadzone przez native speakerów 
       i doświadczonych lektorów odbywają się w formie interaktywnych warsztatów, 
       gier i zabaw językowych.
@@ -323,8 +311,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     priceFrom: "Zaplanuj wycieczkę",
     thumbnail: "/src/assets/mok.png",
     mainImage: "/src/assets/mok.png",
-    description: 
-      `Masz pomysł na wyjątkową wycieczkę szkolną? Chcesz zorganizować wyjazd 
+    description: `Masz pomysł na wyjątkową wycieczkę szkolną? Chcesz zorganizować wyjazd 
       dostosowany do specyficznych potrzeb i zainteresowań Twojej grupy? Jesteśmy 
       tu, aby pomóc w realizacji Twoich planów!
 

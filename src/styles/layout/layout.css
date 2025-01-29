@@ -1,4 +1,4 @@
-@import '../base/variables.css';
+@import "../base/variables.css";
 
 .layout {
   display: flex;
@@ -22,4 +22,4 @@
   overflow-y: auto; /* scrollowanie tylko contentu */
   display: flex;
   flex-direction: column;
-} 
+}

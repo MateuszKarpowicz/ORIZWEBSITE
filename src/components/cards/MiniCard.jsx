@@ -12,7 +12,7 @@ function MiniCard({ destination }) {
           <div className="mini-card__placeholder">{destination.title}</div>
         ) : (
           <img
-            src="src/Assets/images/mok.png"
+            src={destination.mainImage}
             alt={destination.title}
             className="mini-card__image"
             onError={() => setImageError(true)}
