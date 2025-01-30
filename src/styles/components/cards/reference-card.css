@@ -5,60 +5,65 @@
   position: relative;
   border-radius: 35px;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
-}
-
-.reference-card:hover {
-  transform: scale(1.02);
 }
 
 .reference-card__pdf-preview {
   width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.reference-card__image-container {
-  width: 100%;
   height: 481px;
-  position: relative;
+  border: none;
+  pointer-events: none;
   background: var(--color-white);
   border-radius: 35px;
 }
 
-.reference-card__image {
+.reference-card__placeholder {
+  width: 100%;
+  height: 481px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(41, 85, 164, 0.1);
+  color: var(--color-primary);
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+.reference-card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border-radius: 35px;
+}
+
+.reference-card:hover .reference-card__overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.reference-card__view-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.reference-card:hover .reference-card__view-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mini-card__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-
-.reference-card__title-container {
-  position: absolute;
-  bottom: 60px;
-  left: 0;
-  width: 230px;
-  height: 60px;
-  background: var(--color-secondary);
-  border-radius: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-
-.reference-card__location {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 230px;
-  height: 40px;
-  background: var(--color-primary);
-  border-radius: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-white);
-  font-size: 16px;
-  z-index: 2;
+  pointer-events: none;
 } 

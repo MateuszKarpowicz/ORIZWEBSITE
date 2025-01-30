@@ -1,32 +1,20 @@
 import PropTypes from 'prop-types';
-import { useState } from 'react';
 
 function ReferenceCard({ reference }) {
-  const [imageError, setImageError] = useState(false);
-
   const handleClick = () => {
-    window.open(reference.pdfUrl, '_blank');
+    window.open(reference.pdfUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
-    <div onClick={handleClick} className="mini-card">
+    <div onClick={handleClick} className="mini-card reference-card">
       <div className="mini-card__image-container">
-        {imageError ? (
-          <div className="mini-card__placeholder">
-            {reference.schoolName}
-          </div>
-        ) : (
-          <img
-            src={reference.thumbnail}
-            alt={reference.schoolName}
-            className="mini-card__image"
-            onError={() => setImageError(true)}
-          />
-        )}
-      </div>
-      <div className="mini-card__content">
-        <div className="mini-card__title-container">
-          <h2 className="mini-card__title">{reference.schoolName}</h2>
+        <embed 
+          src={reference.pdfUrl}
+          type="application/pdf"
+          className="mini-card__image"
+        />
+        <div className="reference-card__overlay">
+          <span className="reference-card__view-text">Zobacz referencję</span>
         </div>
       </div>
     </div>
@@ -36,8 +24,6 @@ function ReferenceCard({ reference }) {
 ReferenceCard.propTypes = {
   reference: PropTypes.shape({
     id: PropTypes.string.isRequired,
-    schoolName: PropTypes.string.isRequired,
-    thumbnail: PropTypes.string.isRequired,
     pdfUrl: PropTypes.string.isRequired,
   }).isRequired,
 };
