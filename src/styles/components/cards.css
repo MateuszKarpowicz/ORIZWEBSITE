@@ -1,14 +1,11 @@
 .mini-card {
-  flex: 0 0 392px; /* wymuszamy stałą szerokość */
+  flex: 0 0 392px;
   width: 392px;
   height: 481px;
   position: relative;
   border-radius: 35px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-  box-shadow: none;
-  border: none;
-  background: var(--color-white); /* dodajemy białe tło */
 }
 
 .mini-card:hover {
@@ -20,8 +17,8 @@
   width: 100%;
   height: 481px;
   position: relative;
-  background: var(--color-white); /* zmieniamy tło na białe */
-  border-radius: 35px; /* przywracamy zaokrąglenie */
+  background: var(--color-white);
+  border-radius: 35px;
 }
 
 .mini-card__image {
@@ -56,14 +53,12 @@
   left: 0;
   width: 230px;
   height: 60px;
-  background: var(--color-secondary); /* używamy zmiennej dla spójności */
+  background: var(--color-secondary);
   border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
-  box-shadow: none;
-  border: none;
 }
 
 .mini-card__title {

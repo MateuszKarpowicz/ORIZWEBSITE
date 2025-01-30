@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useCategory } from "../../context/CategoryContext";
-import logo from "../../Assets/images/logo.svg";
+import logo from "../../assets/images/logo.svg";
 
 console.log("Logo image path:", logo); // debugging
 
