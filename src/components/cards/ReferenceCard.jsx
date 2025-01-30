@@ -1,22 +1,23 @@
 import PropTypes from 'prop-types';
 
 function ReferenceCard({ reference }) {
-  const handleClick = () => {
-    window.open(reference.pdfUrl, '_blank', 'noopener,noreferrer');
-  };
+  const pdfPath = `/references/${reference.pdfUrl}`;
 
   return (
-    <div onClick={handleClick} className="mini-card reference-card">
-      <div className="mini-card__image-container">
+    <div className="mini-card">
+      <a 
+        href={pdfPath}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mini-card__image-container"
+      >
         <embed 
-          src={reference.pdfUrl}
+          src={pdfPath}
           type="application/pdf"
           className="mini-card__image"
         />
-        <div className="reference-card__overlay">
-          <span className="reference-card__view-text">Zobacz referencję</span>
-        </div>
-      </div>
+        <div className="reference-card__overlay"></div>
+      </a>
     </div>
   );
 }
