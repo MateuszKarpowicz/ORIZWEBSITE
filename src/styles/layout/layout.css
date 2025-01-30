@@ -17,9 +17,15 @@
   width: 100%;
   max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: 24px;
+  padding-top: 20px;
   position: relative;
   overflow-y: auto; /* scrollowanie tylko contentu */
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 1500px) {
+  .layout__content {
+    padding-top: 10px;
+  }
 }

@@ -309,8 +309,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "zaproponuj-wycieczke",
     category: "zaproponuj-wycieczke",
     priceFrom: "Zaplanuj wycieczkę",
-    thumbnail: "/src/assets/mok.png",
-    mainImage: "/src/assets/mok.png",
+    thumbnail: "/src/assets/images/trips/londyn.png",
+    mainImage: "/src/assets/images/trips/londyn.png",
     description: `Masz pomysł na wyjątkową wycieczkę szkolną? Chcesz zorganizować wyjazd 
       dostosowany do specyficznych potrzeb i zainteresowań Twojej grupy? Jesteśmy 
       tu, aby pomóc w realizacji Twoich planów!

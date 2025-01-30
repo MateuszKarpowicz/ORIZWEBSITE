@@ -1,11 +1,20 @@
 .mini-card {
+<<<<<<< HEAD
   flex: 0 0 392px;
   width: 392px;
   height: 481px;
+=======
+>>>>>>> 327b94b (Responsive styling imrpovements)
   position: relative;
   border-radius: 35px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+<<<<<<< HEAD
+=======
+  box-shadow: none;
+  border: none;
+  background: var(--color-white);
+>>>>>>> 327b94b (Responsive styling imrpovements)
 }
 
 .mini-card:hover {
@@ -15,7 +24,7 @@
 
 .mini-card__image-container {
   width: 100%;
-  height: 481px;
+  height: 100%;
   position: relative;
   background: var(--color-white);
   border-radius: 35px;
@@ -139,4 +148,121 @@
   color: var(--color-primary);
   text-align: center;
   padding: 20px;
+}
+
+@media (min-width: 1501px) {
+  .mini-card {
+    flex: 0 0 392px;
+    width: 420px;
+    height: 451px;
+  }
+
+  .mini-card__image-container {
+    height: 481px;
+  }
+
+  .destinations-grid {
+    width: calc(392px * 3 + 40px);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .mini-card {
+    flex: 0 0 310px;
+    width: 310px;
+    height: 360px;
+  }
+
+  .mini-card__image-container {
+    height: 360px;
+  }
+
+  .mini-card__price {
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+  }
+
+  .mini-card__title-container {
+    width: 180px;
+    height: 45px;
+  }
+
+  .mini-card__title {
+    font-size: 17px;
+  }
+
+  .destinations-grid {
+    width: calc(320px * 3 + 15px);
+    gap: 7px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mini-card {
+    flex: 0 0 250px;
+    width: 250px;
+    height: 280px;
+  }
+
+  .mini-card__image-container {
+    height: 280px;
+  }
+
+  .mini-card__price {
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+    top: -10px;
+    right: -5px;
+  }
+
+  .mini-card__title-container {
+    width: 160px;
+    height: 40px;
+  }
+
+  .mini-card__title {
+    font-size: 16px;
+  }
+
+  .destinations-grid {
+    width: calc(250px * 3 + 20px);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mini-card {
+    flex: 0 0 180px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .mini-card__image-container {
+    height: 180px;
+  }
+
+  .mini-card__price {
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .mini-card__title-container {
+    width: 120px;
+    height: 35px;
+  }
+
+  .mini-card__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .destinations-grid {
+    width: calc(180px * 3 + 20px);
+    gap: 10px;
+  }
 }

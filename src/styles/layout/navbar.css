@@ -210,3 +210,58 @@
 .navbar__filter__button__item:focus {
   outline: none;
 }
+
+/* Media Queries dla nawigacji */
+@media (max-width: 1500px) {
+  .navbar__section--left,
+  .navbar__section--right {
+    width: 500px;
+    gap: 60px;
+  }
+
+  .navbar__link {
+    font-size: 16px;
+  }
+
+  .navbar__button {
+    width: 180px;
+    font-size: 16px;
+  }
+
+  .navbar__filter__button__item {
+    font-size: 16px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar__link {
+    font-size: 16px;
+  }
+  .navbar__section--left,
+  .navbar__section--right {
+    width: 400px;
+    gap: 40px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .logo__image {
+    max-height: 150px;
+  }
+  .navbar__filter__button__item {
+    font-size: 12px;
+    padding: 15px;
+  }
+  .navbar__filter__button {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .navbar__filter__button__item:not(:last-child)::after {
+    display: none;
+  }
+}

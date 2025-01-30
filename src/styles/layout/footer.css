@@ -125,7 +125,6 @@
 
 .footer__social {
   display: flex;
-
   gap: 16px;
   align-items: center;
   margin-left: 60px;
@@ -143,3 +142,49 @@
 }
 
 /* ... reszta stylów dla footera ... */
+
+/* Media Queries dla stopki */
+@media (max-width: 1500px) {
+  .footer__content {
+    padding: 10px 5px 5px;
+    height: 100%;
+  }
+  .footer__icons {
+    gap: 100px;
+  }
+
+  .footer__columns {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__content {
+    padding: 5px 5px 2px;
+  }
+  .footer__icons {
+    top: -44px;
+
+    gap: 60px;
+  }
+
+  .footer__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__main-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__columns {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer__social {
+    margin: 20px 0;
+  }
+}

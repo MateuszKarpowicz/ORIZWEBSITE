@@ -5,10 +5,9 @@
 }
 
 .destinations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  justify-content: space-evenly;
   gap: 20px;
-  width: 100%;
   max-width: var(--container-max-width);
   margin: 0 auto;
   overflow: hidden;
@@ -42,22 +41,6 @@
   transform: none;
 }
 
-/* Dla mniejszych ekranów */
-@media (max-width: 1280px) {
-  .destinations-grid {
-    grid-template-columns: repeat(2, 392px);
-    max-width: calc(392px * 2 + 20px);
-  }
-}
-
-@media (max-width: 860px) {
-  .destinations-grid {
-    grid-template-columns: 392px;
-    max-width: 392px;
-  }
-}
-
-/* Container dla całej sekcji */
 .destinations {
   position: relative;
   width: 100%;
@@ -113,4 +96,10 @@
 .category-filter--active {
   background: var(--color-primary);
   color: var(--color-white);
+}
+/* Dla mniejszych ekranów */
+@media (max-width: 1500px) {
+  .destinations-grid {
+    gap: 5px;
+  }
 }
