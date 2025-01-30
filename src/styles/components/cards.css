@@ -1,20 +1,16 @@
 .mini-card {
-<<<<<<< HEAD
   flex: 0 0 392px;
   width: 392px;
   height: 481px;
-=======
->>>>>>> 327b94b (Responsive styling imrpovements)
+
   position: relative;
   border-radius: 35px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
-<<<<<<< HEAD
-=======
+
   box-shadow: none;
   border: none;
   background: var(--color-white);
->>>>>>> 327b94b (Responsive styling imrpovements)
 }
 
 .mini-card:hover {
