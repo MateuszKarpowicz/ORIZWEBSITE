@@ -103,3 +103,21 @@
     gap: 5px;
   }
 }
+@media (max-width: 1025px) {
+  .scroll-button {
+    transform: none;
+    top: 30%;
+  }
+}
+@media (max-width: 820px) {
+  .main-page {
+    padding: 0;
+  }
+  .scroll-button--left {
+    left: -80px;
+  }
+
+  .scroll-button--right {
+    right: -80px;
+  }
+}

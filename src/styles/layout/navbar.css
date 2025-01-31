@@ -265,3 +265,23 @@
     display: none;
   }
 }
+@media (max-width: 920px) {
+  .navbar__link {
+    font-size: 12px;
+  }
+  .navbar__filter__button__item {
+    font-size: 10px;
+    padding: 2px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .logo__image {
+    max-height: 150px;
+  }
+  .navbar__section--left,
+  .navbar__section--right {
+    width: 300px;
+    gap: 20px;
+  }
+}
