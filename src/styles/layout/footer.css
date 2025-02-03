@@ -160,17 +160,43 @@
 
 @media (max-width: 1200px) {
   .footer__content {
-    padding: 5px 5px 2px;
+    padding: 50px 5px 50px;
   }
   .footer__icons {
-    top: -44px;
-
-    gap: 60px;
+    top: -84px;
+    gap: 90px;
+  }
+  .footer__logo {
+    height: 60px;
+  }
+  .footer__motto {
+    font-size: 15px;
+  }
+  .footer__copyright {
+    font-size: 16px;
+  }
+  .footer__column-title {
+    font-size: 20px;
   }
 
+  .footer__nav-link {
+    font-size: 12px;
+  }
+  .footer__company-info {
+    font-size: 12px;
+  }
+  .footer__company-info a {
+    font-size: 12px;
+  }
+  .footer__social {
+    margin: 20px;
+  }
+  .footer__social-link {
+    font-size: 25px;
+  }
   .footer__icon {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
   }
 
   .footer__main-content {
@@ -181,10 +207,90 @@
   .footer__columns {
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
   }
 
   .footer__social {
     margin: 20px 0;
+  }
+}
+@media (max-width: 920px) {
+  .footer__content {
+    padding: 20px 5px 20px;
+  }
+  .footer__icons {
+    top: -65px;
+    gap: 90px;
+  }
+  .footer__icon {
+    width: 60px;
+    height: 60px;
+  }
+  .footer__columns {
+    gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .footer__columns {
+    gap: 10px;
+  }
+  .footer__column-title {
+    font-size: 16px;
+  }
+  .footer__nav-link {
+    font-size: 10px;
+  }
+  .footer__company-info {
+    font-size: 10px;
+  }
+  .footer__icons {
+    top: -63px;
+    gap: 90px;
+  }
+
+  .footer__content {
+    padding: 10px 0;
+  }
+  .footer__branding {
+    display: none;
+  }
+  .footer__icons {
+    gap: 20px;
+  }
+  .footer__social {
+    margin: 0;
+  }
+  .footer__columns {
+    gap: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .footer__icons {
+    gap: 10px;
+    top: -43px;
+  }
+  .footer__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .footer__columns {
+    gap: 5px;
+  }
+  .footer__column-title {
+    font-size: 14px;
+  }
+  .footer__nav-link {
+    font-size: 10px;
+  }
+  .footer__company-info {
+    font-size: 10px;
+  }
+  .footer__company-info a {
+    font-size: 10px;
+  }
+  .footer__social {
+    margin: 0;
+  }
+  .footer__social-link {
+    font-size: 20px;
   }
 }

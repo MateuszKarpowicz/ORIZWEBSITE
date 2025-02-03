@@ -23,7 +23,7 @@
   margin: 0 auto;
   position: relative;
   overflow-y: auto; /* scrollowanie tylko contentu */
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 /* @media (max-width: 1500px)  */
