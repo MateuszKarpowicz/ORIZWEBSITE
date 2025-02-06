@@ -276,10 +276,10 @@
     gap: 5px;
   }
   .footer__column-title {
-    font-size: 14px;
+    font-size: 10px;
   }
   .footer__nav-link {
-    font-size: 10px;
+    font-size: 8px;
   }
   .footer__company-info {
     font-size: 10px;
@@ -291,6 +291,6 @@
     margin: 0;
   }
   .footer__social-link {
-    font-size: 20px;
+    font-size: 15px;
   }
 }

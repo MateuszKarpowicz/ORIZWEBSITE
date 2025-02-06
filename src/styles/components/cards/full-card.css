@@ -1,31 +1,32 @@
+@import "../../base/variables.css";
+
 .full-card {
   position: relative;
-  width: 1696px;
-  height: 988px;
-  background: #FFFFFF;
+  width: 100%;
+  background: #ffffff;
   margin: 0 auto;
 }
 
 .full-card__header {
   position: relative;
-  width: 1580px;
-  height: 579px;
-  left: 55px;
-  top: 255px;
-  background: #2955A4;
+  width: 93%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  background: #2955a4;
   border-radius: 35px;
   padding: 40px;
   display: flex;
-  gap: 40px;
 }
 
 .full-card__title-circle {
   position: absolute;
-  width: 235px;
-  height: 235px;
-  left: 250px;
-  top: -30px;
-  background: #EF5022;
+  width: 200px;
+  height: 200px;
+  left: 300px;
+  top: 20px;
+  background: #ef5022;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -34,21 +35,21 @@
 }
 
 .full-card__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 44px;
+  font-size: 30px;
   line-height: 53px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
 .full-card__image-container {
-  width: 445px;
-  height: 468px;
-  border-radius: 35px;
+  width: 400px;
+  height: 420px;
+  border-radius: 20px;
   overflow: hidden;
-  margin-left: 78px;
+  margin-left: 0;
 }
 
 .full-card__image {
@@ -58,46 +59,240 @@
 }
 
 .full-card__description {
-  width: 876px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 27px;
-  color: #FFFFFF;
-  margin-left: 120px;
+  width: 800px;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 150px;
+  margin-top: 80px;
 }
 
 .full-card__actions {
-  position: absolute;
+  top: -50px;
+  position: relative;
   display: flex;
-  gap: 174px;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
-  bottom: 190px;
+  bottom: auto;
 }
 
 .full-card__action-button {
-  width: 350px;
-  height: 51px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-family: 'Inter';
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  color: #E85024;
-  transition: all 0.3s ease;
-  border: none;
+  width: 250px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e85024;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.full-card__action-button:hover {
+  background: #e85024;
+  color: #ffffff;
 }
 
-.full-card__action-button:hover {
-  background: #E85024;
-  color: #FFFFFF;
+@media screen and (max-width: 1466px) {
+  .full-card__header {
+    width: 90%;
+    top: 25px;
+    padding: 30px;
+  }
+
+  .full-card__image-container {
+    width: 280px;
+    height: 320px;
+  }
+
+  .full-card__title-circle {
+    width: 120px;
+    height: 120px;
+    left: 230px;
+    font-size: 19px;
+  }
+  .full-card__title {
+    font-size: 20px;
+  }
+  .full-card__description {
+    width: 700px;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  .full-card__actions {
+    margin-top: 23px;
+  }
+
+  .full-card__action-button {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .full-card__image-container {
+    width: 235px;
+    height: 330px;
+  }
+
+  .full-card__title-circle {
+    left: 200px;
+  }
+
+  .full-card__description {
+    width: 600px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+  }
+  .full-card__title-circle {
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    font-size: 19px;
+  }
+  .full-card__actions {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .full-card__header {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+  }
+
+  .full-card__image-container {
+    width: 280px;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  .full-card__title-circle {
+    width: 100px;
+    height: 100px;
+    left: 65%;
+    transform: translateX(-50%);
+    top: -20px;
+  }
+
+  .full-card__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .full-card__description {
+    width: 95%;
+    margin: 20px auto 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .full-card__actions {
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .full-card__action-button {
+    max-width: 200px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .full-card__header {
+    height: 52vh;
+  }
+  .full-card__action-button {
+    max-width: 170px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .full-card {
+    margin: 300px auto 0;
+    height: calc(100vh - 120px);
+  }
+
+  .full-card__header {
+    width: 90%;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .full-card__image-container {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+  }
+
+  .full-card__title-circle {
+    width: 90px;
+    height: 90px;
+    top: -25px;
+    left: 80%;
+  }
+
+  .full-card__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .full-card__description {
+    width: 95%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 15px;
+  }
+
+  .full-card__actions {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .full-card__action-button {
+    width: 100px;
+    height: 25px;
+    font-size: 9px;
+    border-radius: 17px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .full-card__actions {
+    margin-top: 45px;
+  }
+  .full-card__action-button {
+    height: 20px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .full-card {
+    margin: 180px auto 0;
+  }
+  .full-card__description {
+    width: 95%;
+    font-size: 10px;
+  }
+  .full-card__title-circle {
+    width: 70px;
+    height: 70px;
+    top: -15px;
+    left: 80%;
+  }
+  .full-card__title {
+    font-size: 12px;
+  }
+  .full-card__header {
+    width: 85%;
+  }
 }

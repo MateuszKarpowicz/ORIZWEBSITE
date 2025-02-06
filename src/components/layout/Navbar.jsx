@@ -29,11 +29,7 @@ function Navbar() {
       label: "OBOZY JĘZYKOWE",
       path: "/obozy-jezykowe",
     },
-    {
-      id: "wydarzenia-sportowe",
-      label: "WYDARZENIA SPORTOWE",
-      path: "/wydarzenia-sportowe",
-    },
+
     {
       id: "zaproponuj-wycieczke",
       label: "ZAPROPONUJ WYCIECZKĘ",

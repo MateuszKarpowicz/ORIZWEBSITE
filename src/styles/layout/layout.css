@@ -22,7 +22,7 @@
   max-width: var(--container-max-width);
   margin: 0 auto;
   position: relative;
-  overflow-y: auto; /* scrollowanie tylko contentu */
+  overflow-y: hidden;
   padding-bottom: 50px;
 }
 

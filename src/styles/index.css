@@ -5,6 +5,8 @@
 @import "./components/cards.css";
 @import "./pages/main.css";
 @import "./base/reset.css";
+@import "./pages/proposetrip.css";
+@import "./components/cards/full-card.css";
 
 #root {
   min-height: 100vh;
