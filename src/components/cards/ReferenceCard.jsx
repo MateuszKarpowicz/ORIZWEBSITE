@@ -16,7 +16,7 @@ function ReferenceCard({ reference }) {
           type="application/pdf"
           className="mini-card__image"
         />
-        <div className="reference-card__overlay"></div>
+        <div className="reference-card__overlay" style={{ opacity: 0 }}></div>
       </a>
     </div>
   );

@@ -39,6 +39,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
+<<<<<<< HEAD
       {/* Wersja desktopowa */}
       <div className="navbar__desktop">
         <div className="navbar__container__upper">
@@ -63,6 +64,16 @@ function Navbar() {
               GENERATOR OFERT
             </Link>
           </div>
+=======
+      <div className="navbar__container__upper">
+        <div className="navbar__section navbar__section--left">
+          <Link to="/references" className="navbar__link">
+            REFERENCJE
+          </Link>
+          <Link to="/contact" className="navbar__link">
+            KONTAKT
+          </Link>
+>>>>>>> 3cc90e3 (przed mergem)
         </div>
 
         <div className="navbar__container__lower">
