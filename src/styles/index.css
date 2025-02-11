@@ -7,10 +7,8 @@
 @import "./base/reset.css";
 @import "./pages/proposetrip.css";
 @import "./components/cards/full-card.css";
-
 @import "./components/ui/funding-popups.css";
 @import "./pages/funding-page.css";
-
 @import "./pages/contact.css";
 #root {
   min-height: 100vh;
