@@ -1,0 +1,137 @@
+.funding-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.funding-section {
+  width: 100%;
+  background: white;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 100px;
+  flex: 1;
+}
+
+.funding-section__title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2955a4;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.funding-section__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.funding-section__content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+}
+
+.funding-section__values {
+  margin: 25px 0;
+  padding: 20px 30px;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.funding-section__values p {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.funding-section__values strong {
+  color: #2955a4;
+}
+
+.funding-section__hashtags {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.funding-section__hashtags span {
+  color: #2955a4;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.funding-section__footer {
+  font-style: italic;
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 20px;
+  margin-bottom: 70px;
+}
+
+.funding-section__logo {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  max-width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .funding-page {
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .funding-section {
+    padding: 30px;
+    padding-bottom: 90px;
+  }
+
+  .funding-section__title {
+    font-size: 20px;
+  }
+
+  .funding-section__content p {
+    font-size: 13px;
+  }
+
+  .funding-section__values {
+    padding: 12px 15px;
+  }
+
+  .funding-section__values p {
+    font-size: 13px;
+  }
+
+  .funding-section__logo {
+    height: 50px;
+    bottom: 20px;
+  }
+
+  .funding-section__footer {
+    margin-bottom: 60px;
+  }
+} 

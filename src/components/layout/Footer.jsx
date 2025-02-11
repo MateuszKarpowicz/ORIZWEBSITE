@@ -23,7 +23,7 @@ function Footer() {
   const usefulLinks = [
     { path: "/polityka-prywatnosci", label: "POLITYKA PRYWATNOŚCI" },
     { path: "/standardy", label: "STANDARDY" },
-    { path: "/krajowy-plan-odbudowy", label: "KRAJOWY PLAN ODBUDOWY" },
+    { path: "/funding", label: "FINANSOWANIE" },
     { path: "/cookies", label: "COOKIES" },
   ];
 

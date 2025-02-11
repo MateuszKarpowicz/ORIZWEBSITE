@@ -6,6 +6,7 @@ import About from './pages/About';
 import References from './pages/References';
 import ProposeTrip from './pages/ProposeTrip';
 import DestinationPage from './pages/DestinationPage';
+import FundingPage from './pages/FundingPage';
 import { CategoryProvider } from './context/CategoryContext';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="obozy-jezykowe" element={<MainPage />} />
             <Route path="zaproponuj-wycieczke" element={<ProposeTrip />} />
             <Route path="destination/:slug" element={<DestinationPage />} />
+            <Route path="funding" element={<FundingPage />} />
           </Route>
         </Routes>
       </Router>

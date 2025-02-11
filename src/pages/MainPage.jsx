@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { destinations } from "../data/destinations";
 import MiniCard from "../components/cards/MiniCard";
+import FundingPopups from "../components/ui/FundingPopups";
 import { useState } from "react";
 
 function MainPage() {
@@ -35,6 +36,7 @@ function MainPage() {
 
   return (
     <div className="main-page">
+      <FundingPopups />
       {filteredDestinations.length > 3 && (
         <button
           className="scroll-button scroll-button--left"
