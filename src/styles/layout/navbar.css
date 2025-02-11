@@ -121,11 +121,13 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
+  animation: pulseButton 2s infinite ease-in-out;
 }
 
 .navbar__button:hover {
+  animation: none;
   background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .navbar__button:focus {
@@ -419,6 +421,13 @@
     text-align: center;
     border-radius: 5px;
     height: 25px;
+    animation: pulseButton 2s infinite ease-in-out;
+  }
+
+  .navbar__mobile-links .navbar__button:hover {
+    animation: none;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
   }
 
   /* Przycisk kategorii */
@@ -482,5 +491,17 @@
   }
   .navbar__categories-toggle {
     padding: 10px;
+  }
+}
+
+@keyframes pulseButton {
+  0% {
+    background-color: var(--color-primary);
+  }
+  50% {
+    background-color: #278e95; /* Jaśniejszy odcień niebieskiego */
+  }
+  100% {
+    background-color: var(--color-primary);
   }
 }
