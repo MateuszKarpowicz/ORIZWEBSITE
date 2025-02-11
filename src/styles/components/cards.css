@@ -42,14 +42,15 @@
   background: #ef5022;
   border-radius: 50%;
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   z-index: 2;
+  padding: 10px;
 }
 
 .mini-card__title-container {

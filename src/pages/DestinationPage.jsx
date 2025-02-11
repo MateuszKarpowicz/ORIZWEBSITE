@@ -14,11 +14,11 @@ function DestinationPage() {
   return (
     <div className="destination-page">
       <SEO 
-        title={destination.name}
-        description={`Wycieczka ${destination.name} z biurem podróży ORIZ. ${destination.shortDescription}`}
-        keywords={`${destination.name}, wycieczka ${destination.category}, ${destination.tags.join(', ')}`}
+        title={destination.title}
+        description={`Wycieczka ${destination.title} z biurem podróży ORIZ. ${destination.description.slice(0, 160)}...`}
+        keywords={`${destination.title}, wycieczka ${destination.category}`}
         url={`https://oriz.pl/destination/${destination.slug}`}
-        image={destination.image}
+        image={destination.mainImage}
       />
       <FullCard destination={destination} />
     </div>

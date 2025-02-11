@@ -36,7 +36,7 @@ function FullCard({ destination }) {
           GALERIA
         </button>
         <button 
-          onClick={() => navigate('/generator')}
+          onClick={() => window.open('https://oferty.oriz.pl', '_blank', 'noopener,noreferrer')}
           className="full-card__action-button"
         >
           GENERATOR OFERT

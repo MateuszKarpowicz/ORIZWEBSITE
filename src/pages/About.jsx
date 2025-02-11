@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 
 function About() {
@@ -10,27 +11,34 @@ function About() {
         keywords="ORIZ biuro podróży, o nas, doświadczenie, historia firmy, biuro podróży Szczecin"
         url="https://oriz.pl/about"
       />
-      <h1 className="about__title">O nas</h1>
+      <h1 className="about__title">TURYSTYKA TWORZONA Z SERCEM</h1>
       <div className="about__content">
         <p>
-          Biuro podróży ORIZ to firma z wieloletnim doświadczeniem w organizacji wycieczek szkolnych i młodzieżowych. 
-          Nasza pasja do podróżowania i edukacji pozwala nam tworzyć wyjątkowe programy, które łączą naukę z przygodą.
-        </p>
-        <p>
-          Specjalizujemy się w wycieczkach zagranicznych, obozach językowych i sportowych, zawsze stawiając na najwyższą 
-          jakość usług i bezpieczeństwo uczestników.
-        </p>
-        <p>
-          Współpracujemy z najlepszymi przewodnikami i organizatorami, aby zapewnić naszym klientom niezapomniane 
-          wrażenia i profesjonalną obsługę na każdym etapie podróży.
-        </p>
-        <p>
-          Nasze programy są starannie dopracowane i dostosowane do potrzeb różnych grup wiekowych, 
-          z naciskiem na aspekty edukacyjne i rozwojowe.
-        </p>
-        <p>
           ORIZ to nie tylko biuro podróży - to zespół pasjonatów, dla których najważniejsze jest 
-          zadowolenie klientów i tworzenie wyjątkowych wspomnień.
+          tworzenie wyjątkowych wspomnień i edukacyjnych przygód.
+        </p>
+
+        <p>
+          Nasze programy są koronkowe, przemyślane i autorskie. W procesie tworzenia wycieczek staramy się 
+          zadbać o każdy szczegół, co nie znaczy, że brakuje nam elastyczności. Jesteśmy otwarci na dialog 
+          i potrzeby naszych klientów. Wycieczki są precyzyjnie skonstruowane ale poprzez zachowanie modułowego 
+          podejścia jesteśmy w stanie je modyfikować pod potrzeby i zainteresowania każdej grupy.
+        </p>
+
+        <p>
+          Szczególną uwagę przykładamy do jakości naszej kadry. Prowadzimy własny program szkoleniowy 
+          dla pilotów wycieczek, a do współpracy zapraszamy tylko najlepszych kandydatów, mających wizje 
+          turystyki i podejście do młodzieży zgodne z naszym.
+        </p>
+
+        <p>
+          Bezpieczeństwo i komfort uczestników to nasz priorytet, dlatego współpracujemy wyłącznie 
+          ze sprawdzonymi partnerami i dbamy o każdy szczegół organizacji.
+        </p>
+
+        <p>
+          Na rynku wycieczek szkolnych jesteśmy na tyle długo, że wolimy, żeby komplementowali nas inni, 
+          więc zachęcamy do zaglądnięcia na podstronę <Link to="/references" className="about__link">REFERENCJE</Link>.
         </p>
       </div>
     </div>

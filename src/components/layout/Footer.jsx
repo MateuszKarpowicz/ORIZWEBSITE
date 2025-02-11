@@ -14,10 +14,14 @@ import {
 
 function Footer() {
   const navLinks = [
-    { path: "/wspolpraca", label: "WSPÓŁPRACA" },
+    { path: "/references", label: "REFERENCJE" },
     { path: "/kontakt", label: "KONTAKT" },
     { path: "/o-nas", label: "O NAS" },
-    { path: "/generator", label: "GENERATOR OFERT" },
+    { 
+      path: "https://oferty.oriz.pl", 
+      label: "GENERATOR OFERT",
+      external: true
+    },
   ];
 
   const usefulLinks = [
@@ -73,6 +77,10 @@ function Footer() {
                     key={link.path}
                     to={link.path}
                     className="footer__nav-link"
+                    {...(link.external ? {
+                      target: "_blank",
+                      rel: "noopener noreferrer"
+                    } : {})}
                   >
                     {link.label}
                   </Link>

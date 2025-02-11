@@ -58,7 +58,12 @@ function Navbar() {
             <Link to="/about" className="navbar__link">
               O NAS
             </Link>
-            <Link to="/generator" className="navbar__button">
+            <Link 
+              to="https://oferty.oriz.pl"
+              className="navbar__button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GENERATOR OFERT
             </Link>
           </div>
@@ -127,9 +132,11 @@ function Navbar() {
               O NAS
             </Link>
             <Link
-              to="/generator"
+              to="https://oferty.oriz.pl"
               className="navbar__button"
               onClick={() => setIsMenuOpen(false)}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               GENERATOR OFERT
             </Link>

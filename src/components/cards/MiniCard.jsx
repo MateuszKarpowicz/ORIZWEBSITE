@@ -20,7 +20,9 @@ function MiniCard({ destination }) {
         )}
       </div>
       <div className="mini-card__content">
-        <div className="mini-card__price">{destination.priceFrom}</div>
+        {destination.category !== 'zaproponuj-wycieczke' ? (
+          <div className="mini-card__price">ZAPLANUJ WYCIECZKĘ</div>
+        ) : null}
         <div className="mini-card__title-container">
           <h2 className="mini-card__title">{destination.title}</h2>
         </div>
@@ -34,10 +36,7 @@ MiniCard.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
-    priceFrom: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.number
-    ]).isRequired,
+    category: PropTypes.string.isRequired,
   }).isRequired,
 };
 

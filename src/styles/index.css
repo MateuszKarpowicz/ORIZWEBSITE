@@ -11,6 +11,7 @@
 @import "./pages/funding-page.css";
 @import "./pages/contact.css";
 @import "./pages/references.css";
+@import "./pages/about.css";
 
 #root {
   min-height: 100vh;

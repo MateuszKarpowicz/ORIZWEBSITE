@@ -23,15 +23,35 @@ function FundingPopups() {
     return null;
   }, []);
 
+  const shouldShowPopup = useCallback(() => {
+    // Lista ścieżek, gdzie popup NIE powinien się pokazywać
+    const excludedPaths = [
+      '/wycieczki-krajowe',
+      '/wycieczki-zagraniczne',
+      '/funding',
+      '/references',
+      '/contact',
+      '/about'
+    ];
+
+    // Sprawdzamy czy obecna ścieżka jest na liście wykluczonych
+    return !excludedPaths.some(path => location.pathname === path);
+  }, [location]);
+
   useEffect(() => {
-    // Pokazujemy popupy tylko na dozwolonych ścieżkach i tylko raz
-    if (allowedPaths.includes(location.pathname) && !hasShown) {
-      setIsVisible1(true);
-      setIsVisible2(true);
-      setContainerVisible(true);
-      setHasShown(true);
+    // Pokazujemy popup tylko jeśli nie jest na liście wykluczonych ścieżek
+    // i nie był wcześniej zamknięty w tej sesji
+    const wasShown = sessionStorage.getItem('fundingPopupShown');
+    if (!wasShown && shouldShowPopup()) {
+      const timer = setTimeout(() => {
+        setIsVisible1(true);
+        setIsVisible2(true);
+        setContainerVisible(true);
+        setHasShown(true);
+      }, 2000);
+      return () => clearTimeout(timer);
     }
-  }, [location.pathname, hasShown]);
+  }, [location, shouldShowPopup]);
 
   useEffect(() => {
     let timer1 = startHideTimer(setIsVisible1, isHovered1);
@@ -53,6 +73,13 @@ function FundingPopups() {
 
   const handleClick = () => {
     window.location.href = '/funding';
+  };
+
+  const handleClose = () => {
+    setIsVisible1(false);
+    setIsVisible2(false);
+    setContainerVisible(false);
+    sessionStorage.setItem('fundingPopupShown', 'true');
   };
 
   // Nie renderujemy nic jeśli nie jesteśmy na dozwolonej ścieżce lub już pokazaliśmy popupy

@@ -189,16 +189,9 @@
   position: relative;
 }
 
+/* Usuwamy podkreślenie (poprzedni pseudo-element) */
 .navbar__filter__button__item--active::before {
-  content: "";
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 3px;
-  background-color: var(--color-primary);
-  border-radius: 2px;
+  display: none; /* lub usuwamy całkowicie ten blok */
 }
 
 /* Hover effect */

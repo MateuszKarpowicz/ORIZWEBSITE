@@ -35,7 +35,12 @@ function Contact() {
 
           <div className="contact__cta">
             <div className="arrow-animation">➜</div>
-            <a href="/generator" className="button">
+            <a 
+              href="https://oferty.oriz.pl" 
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Generator Ofert
             </a>
           </div>
