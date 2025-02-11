@@ -10,6 +10,8 @@
 @import "./components/ui/funding-popups.css";
 @import "./pages/funding-page.css";
 @import "./pages/contact.css";
+@import "./pages/references.css";
+
 #root {
   min-height: 100vh;
   display: flex;

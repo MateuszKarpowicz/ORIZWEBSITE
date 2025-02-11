@@ -4,7 +4,7 @@ export const destinations = [
     title: "LONDYN",
     slug: "londyn",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/londyn.png",
     mainImage: "/src/assets/images/trips/londyn.png",
     description: `Z jednej strony tygiel kulturowy zamieszkały przez reprezentantów 
@@ -30,7 +30,7 @@ export const destinations = [
     title: "MALTA",
     slug: "malta",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/malta.png",
     mainImage: "/src/assets/images/trips/malta.png",
     description: `Malta to wyjątkowy kierunek na wycieczkę szkolną, który łączy fascynującą 
@@ -54,7 +54,7 @@ export const destinations = [
     title: "BARCELONA",
     slug: "barcelona",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/barcelona.png",
     mainImage: "/src/assets/images/trips/barcelona.png",
     description: `Barcelona to idealny kierunek na wycieczkę szkolną, który łączy edukację 
@@ -79,7 +79,7 @@ export const destinations = [
     title: "USA",
     slug: "usa",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/usa.png",
     mainImage: "/src/assets/images/trips/usa.png",
     description: `Stany Zjednoczone to kraj nieograniczonych możliwości, gdzie każdy stan 
@@ -99,7 +99,7 @@ export const destinations = [
     title: "AZJA",
     slug: "azja",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/asia.png",
     mainImage: "/src/assets/images/trips/asia.png",
     description: `Azja to fascynujący kontynent kontrastów, gdzie nowoczesne metropolie 
@@ -120,7 +120,7 @@ export const destinations = [
     title: "ATENY",
     slug: "ateny",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/ateny.png",
     mainImage: "/src/assets/images/trips/ateny.png",
     description: `Ateny to miasto, które przenosi w czasie, oferując młodzieży możliwość odkrycia kolebki europejskiej cywilizacji. Wycieczka szkolna do stolicy Grecji to fascynująca podróż przez historię, mitologię i architekturę. Na uczniów czekają ikoniczne zabytki, takie jak Akropol z Partenonem, Świątynia Zeusa Olimpijskiego czy starożytna Agora, które pozwalają na głębsze zrozumienie kultury antycznej.
@@ -134,7 +134,7 @@ Zapewniamy wygodny transport i profesjonalne przewodnictwo, aby uczniowie mogli 
     title: "NEAPOL",
     slug: "neapol",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/neapol.png",
     mainImage: "/src/assets/images/trips/neapol.png",
     description: `Neapol to idealne miejsce na wycieczkę szkolną, która łączy historię, kulturę i niezwykłe widoki. Miasto u stóp Wezuwiusza oferuje uczniom możliwość poznania starożytnych Pompejów, wpisanych na listę UNESCO, oraz doświadczenia włoskiego stylu życia. Neapol zachwyca także zabytkowymi kościołami, wąskimi uliczkami i wyśmienitą pizzą, która narodziła się właśnie tutaj.
@@ -148,7 +148,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "TENERYFA",
     slug: "teneryfa",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/teneryfa.png",
     mainImage: "/src/assets/images/trips/teneryfa.png",
     description: `Teneryfa, największa z Wysp Kanaryjskich, to wyjątkowe miejsce na wycieczkę 
@@ -171,7 +171,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "EDYNBURG",
     slug: "edynburg",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/edynburg.png",
     mainImage: "/src/assets/images/trips/edynburg.png",
     description: `Edynburg, nazywany "Atenami Północy", to idealne miejsce na wycieczkę 
@@ -195,7 +195,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "DUBLIN",
     slug: "dublin",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/dublin.png",
     mainImage: "/src/assets/images/trips/dublin.png",
     description: `Dublin, serce Irlandii, to miejsce, które idealnie łączy historię z 
@@ -218,7 +218,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "LIZBONA",
     slug: "lizbona",
     category: "wycieczki-zagraniczne",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/lizbona.png",
     mainImage: "/src/assets/images/trips/lizbona.png",
     description: `Lizbona to niezwykła stolica Portugalii, idealna na wycieczkę szkolną, 
@@ -242,7 +242,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "KRAKÓW",
     slug: "krakow",
     category: "wycieczki-krajowe",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/krakow.png",
     mainImage: "/src/assets/images/trips/krakow.png",
     description: `Kraków to jedno z najpiękniejszych miast Polski, które oferuje niezliczone 
@@ -265,7 +265,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "OBOZY SPORTOWE",
     slug: "obozy-sportowe",
     category: "obozy-sportowe",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/skate.png",
     mainImage: "/src/assets/images/trips/skate.png",
     description: `Nasze obozy sportowe to idealne połączenie aktywnego wypoczynku, 
@@ -286,7 +286,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "OBOZY JĘZYKOWE",
     slug: "obozy-jezykowe",
     category: "obozy-jezykowe",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/school.png",
     mainImage: "/src/assets/images/trips/school.png",
     description: `Obozy językowe to innowacyjne podejście do nauki języków obcych, gdzie 
@@ -308,7 +308,7 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     title: "ZAPROPONUJ WYCIECZKĘ",
     slug: "zaproponuj-wycieczke",
     category: "zaproponuj-wycieczke",
-    priceFrom: "Zaplanuj wycieczkę",
+    priceFrom: 2499,
     thumbnail: "/src/assets/images/trips/londyn.png",
     mainImage: "/src/assets/images/trips/londyn.png",
     description: `Masz pomysł na wyjątkową wycieczkę szkolną? Chcesz zorganizować wyjazd 

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ReferenceCard from '../components/cards/ReferenceCard';
 import { references } from '../data/references';
+import SEO from '../components/SEO';
 
 function References() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,36 +21,43 @@ function References() {
   const visibleReferences = references.slice(currentIndex, currentIndex + 3);
 
   return (
-    <div className="main-page">
-      <h1 className="references__title">Referencje</h1>
-      {references.length > 3 && (
-        <button 
-          className="scroll-button scroll-button--left"
-          onClick={() => scroll('left')}
-          aria-label="Przewiń w lewo"
-        >
-          ←
-        </button>
-      )}
+    <div className="references-page">
+      <SEO 
+        title="Referencje"
+        description="Zobacz opinie naszych klientów o biurze podróży ORIZ. Poznaj doświadczenia osób, które nam zaufały i skorzystały z naszych usług."
+        keywords="opinie ORIZ, referencje biuro podróży, opinie klientów, zadowoleni klienci"
+        url="https://oriz.pl/references"
+      />
+      <div className="references__container">
+        {references.length > 3 && (
+          <button 
+            className="scroll-button scroll-button--left"
+            onClick={() => scroll('left')}
+            aria-label="Przewiń w lewo"
+          >
+            ←
+          </button>
+        )}
 
-      <div className="destinations-grid">
-        {visibleReferences.map(reference => (
-          <ReferenceCard 
-            key={reference.id} 
-            reference={reference} 
-          />
-        ))}
+        <div className="references-grid">
+          {visibleReferences.map(reference => (
+            <ReferenceCard 
+              key={reference.id} 
+              reference={reference} 
+            />
+          ))}
+        </div>
+
+        {references.length > 3 && (
+          <button 
+            className="scroll-button scroll-button--right"
+            onClick={() => scroll('right')}
+            aria-label="Przewiń w prawo"
+          >
+            →
+          </button>
+        )}
       </div>
-
-      {references.length > 3 && (
-        <button 
-          className="scroll-button scroll-button--right"
-          onClick={() => scroll('right')}
-          aria-label="Przewiń w prawo"
-        >
-          →
-        </button>
-      )}
     </div>
   );
 }

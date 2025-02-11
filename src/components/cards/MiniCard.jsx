@@ -34,7 +34,10 @@ MiniCard.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
-    priceFrom: PropTypes.number,
+    priceFrom: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number
+    ]).isRequired,
   }).isRequired,
 };
 

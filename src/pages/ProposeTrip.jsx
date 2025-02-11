@@ -1,3 +1,5 @@
+import React from 'react';
+import SEO from '../components/SEO';
 
 function ProposeTrip() {
   const handleSubmit = (e) => {
@@ -8,6 +10,12 @@ function ProposeTrip() {
 
   return (
     <div className="propose-trip">
+      <SEO 
+        title="Zaproponuj Wycieczkę"
+        description="Masz pomysł na wycieczkę? Zaproponuj własną trasę lub cel podróży. ORIZ pomoże zorganizować wymarzony wyjazd według Twoich preferencji."
+        keywords="własna wycieczka, organizacja wycieczek, wycieczka na zamówienie, indywidualna organizacja wyjazdu"
+        url="https://oriz.pl/zaproponuj-wycieczke"
+      />
       <h1 className="propose-trip__title">ZAPROPONUJ WYCIECZKĘ</h1>
       
       <form className="propose-trip__form" onSubmit={handleSubmit}>

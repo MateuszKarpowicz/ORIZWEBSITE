@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 function ReferenceCard({ reference }) {
   const pdfPath = `/references/${reference.pdfUrl}`;
+  const thumbnailPath = `/references/thumbnails/${reference.pdfUrl.replace('.pdf', '.png')}`; // Zmieniamy .jpg na .png
 
   return (
     <div className="mini-card">
@@ -11,12 +12,14 @@ function ReferenceCard({ reference }) {
         rel="noopener noreferrer"
         className="mini-card__image-container"
       >
-        <embed 
-          src={pdfPath}
-          type="application/pdf"
+        <img 
+          src={thumbnailPath}
+          alt="Podgląd referencji"
           className="mini-card__image"
         />
-        <div className="reference-card__overlay" style={{ opacity: 0 }}></div>
+        <div className="reference-card__overlay" style={{ opacity: 0 }}>
+          <span className="reference-card__view-text">Zobacz referencję</span>
+        </div>
       </a>
     </div>
   );

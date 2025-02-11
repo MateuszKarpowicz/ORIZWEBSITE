@@ -1,10 +1,17 @@
 import founding1 from '../Assets/images/funding/founding1.png';
 import founding2 from '../Assets/images/funding/founding2.png';
 import '../styles/pages/funding-page.css';
+import SEO from '../components/SEO';
 
 function FundingPage() {
   return (
     <div className="funding-page">
+      <SEO 
+        title="Finansowanie"
+        description="ORIZ realizuje projekty dofinansowane z funduszy UE. Rozwijamy się, aby zapewnić naszym klientom jeszcze lepsze usługi turystyczne."
+        keywords="finansowanie UE, fundusze europejskie, rozwój firmy, ORIZ dofinansowania"
+        url="https://oriz.pl/funding"
+      />
       <section className="funding-section">
         <h2 className="funding-section__title">Rozszerzenie działalności - wycieczki grywalizacyjne</h2>
         <div className="funding-section__content">

@@ -1,3 +1,6 @@
+import React from 'react';
+import SEO from '../components/SEO';
+
 function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -7,6 +10,12 @@ function Contact() {
 
   return (
     <div className="contact">
+      <SEO 
+        title="Kontakt"
+        description="Skontaktuj się z biurem podróży ORIZ. Znajdziesz nas w Szczecinie przy ul. Barbakan 2A/11. Pomożemy zaplanować Twój wymarzony wyjazd!"
+        keywords="kontakt ORIZ, biuro podróży Szczecin kontakt, ORIZ Szczecin, telefon biuro podróży"
+        url="https://oriz.pl/contact"
+      />
       <div className="contact__content">
         <div className="contact__left">
           <h2 className="contact__subtitle">

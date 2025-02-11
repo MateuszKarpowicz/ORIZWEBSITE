@@ -1,6 +1,15 @@
+import React from 'react';
+import SEO from '../components/SEO';
+
 function About() {
   return (
     <div className="about">
+      <SEO 
+        title="O nas"
+        description="ORIZ to doświadczone biuro podróży ze Szczecina. Od lat organizujemy niezapomniane wycieczki i dbamy o zadowolenie naszych klientów."
+        keywords="ORIZ biuro podróży, o nas, doświadczenie, historia firmy, biuro podróży Szczecin"
+        url="https://oriz.pl/about"
+      />
       <h1 className="about__title">O nas</h1>
       <div className="about__content">
         <p>
