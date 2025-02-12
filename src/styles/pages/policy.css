@@ -1,0 +1,41 @@
+.policy,
+.standards,
+.cookies {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.policy__title,
+.standards__title,
+.cookies__title {
+  color: var(--color-primary);
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.policy__content,
+.standards__content,
+.cookies__content {
+  line-height: 1.6;
+  font-size: 16px;
+  color: var(--color-text);
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .policy__title,
+  .standards__title,
+  .cookies__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .policy__content,
+  .standards__content,
+  .cookies__content {
+    font-size: 14px;
+  }
+} 

@@ -15,8 +15,8 @@ import {
 function Footer() {
   const navLinks = [
     { path: "/references", label: "REFERENCJE" },
-    { path: "/kontakt", label: "KONTAKT" },
-    { path: "/o-nas", label: "O NAS" },
+    { path: "/contact", label: "KONTAKT" },
+    { path: "/about", label: "O NAS" },
     { 
       path: "https://oferty.oriz.pl", 
       label: "GENERATOR OFERT",

@@ -7,6 +7,9 @@ import References from './pages/References';
 import ProposeTrip from './pages/ProposeTrip';
 import DestinationPage from './pages/DestinationPage';
 import FundingPage from './pages/FundingPage';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Standards from './pages/Standards';
+import Cookies from './pages/Cookies';
 import { CategoryProvider } from './context/CategoryContext';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -29,6 +32,9 @@ function App() {
               <Route path="zaproponuj-wycieczke" element={<ProposeTrip />} />
               <Route path="destination/:slug" element={<DestinationPage />} />
               <Route path="funding" element={<FundingPage />} />
+              <Route path="polityka-prywatnosci" element={<PrivacyPolicy />} />
+              <Route path="standardy" element={<Standards />} />
+              <Route path="cookies" element={<Cookies />} />
             </Route>
           </Routes>
         </Router>
