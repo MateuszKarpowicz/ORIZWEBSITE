@@ -63,6 +63,7 @@
 @media (max-width: 768px) {
   .contact {
     min-height: calc(100vh - 150px);
+    margin-top: 30px;
   }
 
   .contact__footer {
@@ -76,6 +77,6 @@
 
   .contact__section p,
   .contact__section a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

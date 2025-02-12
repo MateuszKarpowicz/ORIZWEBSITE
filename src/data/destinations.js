@@ -24,6 +24,26 @@ export const destinations = [
       najważniejszych zabytków, ale - co może istotniejsze - wczucia się w 
       jego rytm i przełamania bariery zwiedzający-obiekt, zatarcia granicy 
       między turystą, a mieszkańcem.`,
+    gallery: [
+      "/src/Assets/images/gallery/londyn/Londyn_1.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_2.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_3.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_4.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_5.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_6.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_7.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_8.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_9.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_10.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_11.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_12.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_13.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_14.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_15.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_16.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_17.webp",
+      "/src/Assets/images/gallery/londyn/Londyn_18.webp"
+    ]
   },
   {
     id: "malta",
@@ -48,6 +68,26 @@ export const destinations = [
       wycieczka szkolna na Maltę to doskonałe połączenie edukacji, przygody i 
       relaksu. Zorganizuj wyjazd z nami i odkryj niezwykłą atmosferę tej 
       wyjątkowej wyspy!`,
+    gallery: [
+      "/src/Assets/images/gallery/malta/Malta_1.webp",
+      "/src/Assets/images/gallery/malta/Malta_2.webp",
+      "/src/Assets/images/gallery/malta/Malta_3.webp",
+      "/src/Assets/images/gallery/malta/Malta_4.webp",
+      "/src/Assets/images/gallery/malta/Malta_5.webp",
+      "/src/Assets/images/gallery/malta/Malta_6.webp",
+      "/src/Assets/images/gallery/malta/Malta_7.webp",
+      "/src/Assets/images/gallery/malta/Malta_8.webp",
+      "/src/Assets/images/gallery/malta/Malta_9.webp",
+      "/src/Assets/images/gallery/malta/Malta_10.webp",
+      "/src/Assets/images/gallery/malta/Malta_11.webp",
+      "/src/Assets/images/gallery/malta/Malta_12.webp",
+      "/src/Assets/images/gallery/malta/Malta_13.webp",
+      "/src/Assets/images/gallery/malta/Malta_14.webp",
+      "/src/Assets/images/gallery/malta/Malta_15.webp",
+      "/src/Assets/images/gallery/malta/Malta_16.webp",
+      "/src/Assets/images/gallery/malta/Malta_17.webp",
+      "/src/Assets/images/gallery/malta/Malta_18.webp"
+    ]
   },
   {
     id: "barcelona",
@@ -73,6 +113,14 @@ export const destinations = [
       transport, sprawdzoną bazę noclegową i bogaty program zwiedzania. Barcelona 
       to doskonałe miejsce, by poszerzyć horyzonty młodzieży i dostarczyć 
       niezapomnianych wspomnień.`,
+    gallery: [
+      "/src/Assets/images/gallery/barcelona/Barcelona_1.webp",
+      "/src/Assets/images/gallery/barcelona/Barcelona_2.webp",
+      "/src/Assets/images/gallery/barcelona/Barcelona_3.webp",
+      "/src/Assets/images/gallery/barcelona/Barcelona_4.webp",
+      "/src/Assets/images/gallery/barcelona/Barcelona_5.webp",
+      "/src/Assets/images/gallery/barcelona/Barcelona_6.webp"
+    ]
   },
   {
     id: "usa",
@@ -142,6 +190,21 @@ Zapewniamy wygodny transport i profesjonalne przewodnictwo, aby uczniowie mogli 
 W programie wycieczki znajduje się także wizyta na malowniczej wyspie Capri, gdzie uczniowie mogą podziwiać Lazurową Grotę, urokliwe miasteczka i zapierające dech w piersiach widoki z Monte Solaro. Dzięki komfortowemu transportowi i dopracowanemu planowi zwiedzania, młodzież ma szansę zobaczyć zarówno historyczne zabytki, jak i piękno włoskiej natury.
 
 Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświadczenia różnorodności Włoch – wyjazd, który uczniowie zapamiętają na zawsze.`,
+    gallery: [
+      "/src/Assets/images/gallery/neapol/Neapol_1.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_2.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_3.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_4.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_5.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_6.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_7.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_8.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_9.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_10.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_11.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_12.webp",
+      "/src/Assets/images/gallery/neapol/Neapol_13.webp"
+    ]
   },
   {
     id: "teneryfa",
@@ -189,6 +252,16 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
       Dzięki bogatemu programowi i profesjonalnemu przewodnictwu Edynburg staje 
       się idealnym kierunkiem dla młodzieży, łączącym edukację z wyjątkowym 
       klimatem i szkocką gościnnością.`,
+    gallery: [
+      "/src/Assets/images/gallery/edynburg/Edynburg_1.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_2.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_3.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_4.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_5.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_6.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_7.webp",
+      "/src/Assets/images/gallery/edynburg/Edynburg_8.webp"
+    ]
   },
   {
     id: "dublin",
@@ -236,6 +309,21 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
       z widokiem na Tag. Lizbona to miasto pełne kontrastów – łączy tradycję z 
       nowoczesnością, oferując uczniom lekcję historii i kultury w wyjątkowej 
       oprawie.`,
+    gallery: [
+      "/src/Assets/images/gallery/lizbona/lizbona1.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona2.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona3.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona4.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona5.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona6.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona7.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona8.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona9.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona10.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona11.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona12.webp",
+      "/src/Assets/images/gallery/lizbona/lizbona13.webp"
+    ]
   },
   {
     id: "krakow",

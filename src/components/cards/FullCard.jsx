@@ -1,8 +1,32 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import ImageCarousel from '../ui/ImageCarousel';
+import programLondyn from '../../Assets/programs/program-londyn.pdf';
+import programMalta from '../../Assets/programs/program-malta.pdf';
+import programUsa from '../../Assets/programs/program-usa.pdf';
+import programNeapol from '../../Assets/programs/program-neapol.pdf';
+import programLizbona from '../../Assets/programs/program-lizbona.pdf';
+import programEdynburg from '../../Assets/programs/program-edynburg.pdf';
+import programBarcelona from '../../Assets/programs/program-barcelona.pdf';
+import programAteny from '../../Assets/programs/program-ateny.pdf';
+// ... inne importy programów
 
 function FullCard({ destination }) {
   const navigate = useNavigate();
+  const [showGallery, setShowGallery] = useState(false);
+
+  // Mapowanie slugów na pliki PDF
+  const programFiles = {
+    londyn: programLondyn,
+    malta: programMalta,
+    usa: programUsa,
+    neapol: programNeapol,
+    lizbona: programLizbona,
+    edynburg: programEdynburg,
+    barcelona: programBarcelona,
+    ateny: programAteny
+  };
 
   return (
     <div className="full-card">
@@ -24,13 +48,17 @@ function FullCard({ destination }) {
 
       <div className="full-card__actions">
         <button 
-          onClick={() => navigate(`/program/${destination.slug}`)}
+          onClick={() => {
+            if (programFiles[destination.slug]) {
+              window.open(programFiles[destination.slug], '_blank', 'noopener,noreferrer');
+            }
+          }}
           className="full-card__action-button"
         >
           PROGRAM
         </button>
         <button 
-          onClick={() => navigate(`/galeria/${destination.slug}`)}
+          onClick={() => setShowGallery(true)}
           className="full-card__action-button"
         >
           GALERIA
@@ -42,6 +70,13 @@ function FullCard({ destination }) {
           GENERATOR OFERT
         </button>
       </div>
+      
+      {showGallery && destination.gallery && (
+        <ImageCarousel 
+          images={destination.gallery} 
+          onClose={() => setShowGallery(false)}
+        />
+      )}
     </div>
   );
 }
@@ -52,7 +87,8 @@ FullCard.propTypes = {
     title: PropTypes.string.isRequired,
     mainImage: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    slug: PropTypes.string.isRequired
+    slug: PropTypes.string.isRequired,
+    gallery: PropTypes.arrayOf(PropTypes.string)
   }).isRequired
 };
 

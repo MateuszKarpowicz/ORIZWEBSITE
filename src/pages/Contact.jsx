@@ -15,15 +15,15 @@ function Contact() {
           <div className="contact__section">
             <h3 className="contact__section-title">Oferty & Finanse</h3>
             <p>Piotr Orłowski</p>
-            <a href="mailto:piotr@oriz.pl">piotr@oriz.pl</a>
-            <a href="tel:+48666666666">+48 666 666 666</a>
+            <a href="mailto:piotr@oriz.pl">biuro@oriz.pl</a>
+            <a href="tel:+48692838922">+48 692 838 922</a>
           </div>
 
           <div className="contact__section">
             <h3 className="contact__section-title">Współpraca & Rozwój</h3>
             <p>Mateusz Karpowicz</p>
             <a href="mailto:mateusz@oriz.pl">mateusz@oriz.pl</a>
-            <a href="tel:+48666666666">+48 666 666 666</a>
+            <a href="tel:+48570978003">+48 570 978 003</a>
           </div>
 
           <div className="contact__section">
@@ -32,7 +32,7 @@ function Contact() {
             </h3>
             <p>Maksym Kaczorowski</p>
             <a href="mailto:maksym@oriz.pl">maksym@oriz.pl</a>
-            <a href="tel:+48666666666">+48 666 666 666</a>
+            <a href="tel:+48666501425">+48 666 501 425</a>
           </div>
         </div>
       </div>

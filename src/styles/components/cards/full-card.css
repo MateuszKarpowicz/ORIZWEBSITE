@@ -88,6 +88,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .full-card__action-button:hover {
   background: #e85024;
   color: #ffffff;

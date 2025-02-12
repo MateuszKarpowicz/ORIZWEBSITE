@@ -1,0 +1,101 @@
+.carousel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.carousel-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 40px;
+}
+
+.carousel-image {
+  max-height: calc(100vh - 150px); /* Zostawiamy miejsce na thumbnails */
+  max-width: 90vw;
+  object-fit: contain;
+}
+
+.carousel-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.carousel-nav {
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 20px;
+  transition: opacity 0.3s;
+}
+
+.carousel-nav:hover {
+  opacity: 0.8;
+}
+
+.carousel-prev {
+  left: 20px;
+}
+
+.carousel-next {
+  right: 20px;
+}
+
+/* Style dla paska miniaturek */
+.carousel-thumbnails {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.carousel-thumbnail {
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+  border: 2px solid transparent;
+}
+
+.carousel-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-thumbnail:hover {
+  opacity: 0.8;
+}
+
+.carousel-thumbnail.active {
+  opacity: 1;
+  border-color: var(--color-primary);
+}
+
+/* Ukrywamy scrollbar ale zachowujemy funkcjonalność */
+.carousel-thumbnails::-webkit-scrollbar {
+  display: none;
+} 

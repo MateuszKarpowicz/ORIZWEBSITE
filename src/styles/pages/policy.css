@@ -1,41 +1,117 @@
 .policy,
 .standards,
-.cookies {
+.cookies,
+.terms {
   max-width: 1200px;
-  margin: 0 auto;
   padding: 40px 20px;
+  min-height: calc(100vh - 400px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -220px;
 }
+
+.standards {
+  margin-top: -150px;
+} 
 
 .policy__title,
 .standards__title,
-.cookies__title {
+.cookies__title,
+.terms__title {
   color: var(--color-primary);
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 800;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
+}
+
+.policy__title::after,
+.standards__title::after,
+.cookies__title::after,
+.terms__title::after {
+  display: none;
 }
 
 .policy__content,
 .standards__content,
-.cookies__content {
+.cookies__content,
+.terms__content {
   line-height: 1.6;
   font-size: 16px;
   color: var(--color-text);
   text-align: justify;
+  width: 100%;
+  max-width: 800px;
+}
+
+.policy__link,
+.standards__link,
+.terms__link {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.policy__link:hover,
+.standards__link:hover,
+.terms__link:hover {
+  background-color: var(--color-secondary);
+}
+
+.standards__links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.standards__link--secondary {
+  background-color: var(--color-secondary);
+}
+
+.standards__link--secondary:hover {
+  background-color: var(--color-primary);
 }
 
 @media (max-width: 768px) {
   .policy__title,
   .standards__title,
-  .cookies__title {
+  .cookies__title,
+  .terms__title {
     font-size: 24px;
     margin-bottom: 20px;
   }
 
   .policy__content,
   .standards__content,
-  .cookies__content {
+  .cookies__content,
+  .terms__content {
     font-size: 14px;
   }
-} 
+
+  .cookies {
+    margin-top: 0;
+  }
+
+  .standards {
+    margin-top: -280px;
+  }
+}
+
+.terms__content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.terms__link {
+  min-width: 250px;
+  text-align: center;
+}
+

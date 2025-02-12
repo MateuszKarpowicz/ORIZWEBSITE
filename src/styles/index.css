@@ -13,6 +13,7 @@
 @import "./pages/references.css";
 @import "./pages/about.css";
 @import "./pages/policy.css";
+@import "./components/ui/image-carousel.css";
 
 #root {
   min-height: 100vh;

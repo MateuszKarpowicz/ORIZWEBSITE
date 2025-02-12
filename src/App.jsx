@@ -10,6 +10,7 @@ import FundingPage from './pages/FundingPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Standards from './pages/Standards';
 import Cookies from './pages/Cookies';
+import Terms from './pages/Terms';
 import { CategoryProvider } from './context/CategoryContext';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -34,7 +35,7 @@ function App() {
               <Route path="funding" element={<FundingPage />} />
               <Route path="polityka-prywatnosci" element={<PrivacyPolicy />} />
               <Route path="standardy" element={<Standards />} />
-              <Route path="cookies" element={<Cookies />} />
+              <Route path="regulamin" element={<Terms />} />
             </Route>
           </Routes>
         </Router>

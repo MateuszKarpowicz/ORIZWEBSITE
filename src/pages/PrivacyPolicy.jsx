@@ -1,5 +1,6 @@
 import React from 'react';
 import SEO from '../components/SEO';
+import politykaPoprawnosci from '../assets/documents/polityka-poprawnosci.pdf';
 
 function PrivacyPolicy() {
   return (
@@ -12,7 +13,14 @@ function PrivacyPolicy() {
       />
       <h1 className="policy__title">Polityka Prywatności</h1>
       <div className="policy__content">
-        {/* Treść polityki prywatności */}
+        <a 
+          href={politykaPoprawnosci}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="policy__link"
+        >
+          Otwórz Politykę Prywatności (PDF)
+        </a>
       </div>
     </div>
   );

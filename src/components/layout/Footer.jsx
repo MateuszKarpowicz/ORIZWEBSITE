@@ -28,27 +28,35 @@ function Footer() {
     { path: "/polityka-prywatnosci", label: "POLITYKA PRYWATNOŚCI" },
     { path: "/standardy", label: "STANDARDY" },
     { path: "/funding", label: "FINANSOWANIE" },
-    { path: "/cookies", label: "COOKIES" },
+    { path: "/regulamin", label: "REGULAMIN ŚWIADCZENIA USŁUG" },
   ];
 
   const socialLinks = [
     {
       icon: <FaFacebookF />,
-      path: "https://facebook.com/oriz",
+      path: "https://www.facebook.com/people/Oriz/61572495825616/?mibextid=wwXIfr&rdid=dYz6644GPIoJKs8b&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15zp8AWcnd%2F%3Fmibextid%3DwwXIfr",
       label: "Facebook",
     },
     {
       icon: <FaInstagram />,
-      path: "https://instagram.com/oriz",
+      path: "https://instagram.com/orizexperience",
       label: "Instagram",
     },
-    { icon: <FaTiktok />, path: "https://tiktok.com/@oriz", label: "TikTok" },
+    {
+      icon: <FaTiktok />,
+      path: "https://www.tiktok.com/@oriz240",
+      label: "TikTok",
+    },
     {
       icon: <FaLinkedinIn />,
-      path: "https://linkedin.com/company/oriz",
+      path: "https://linkedin.com/company/orizexperience",
       label: "LinkedIn",
     },
-    { icon: <FaYoutube />, path: "https://youtube.com/oriz", label: "YouTube" },
+    {
+      icon: <FaYoutube />,
+      path: "https://www.youtube.com/@OrizExperience",
+      label: "YouTube",
+    },
   ];
 
   return (
