@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 function ReferenceCard({ reference }) {
   // Importujemy referencje dynamicznie
-  const pdfPath = `/src/Assets/references/${reference.pdfUrl}`;
-  const thumbnailPath = `/src/Assets/references/thumbnails/${reference.pdfUrl.replace('.pdf', '.png')}`;
+  const pdfPath = `../../assets/references/${reference.pdfUrl}`;
+  const thumbnailPath = `/assets/references/thumbnails/${reference.pdfUrl.replace('.pdf', '.png')}`;
 
   return (
     <div className="mini-card">

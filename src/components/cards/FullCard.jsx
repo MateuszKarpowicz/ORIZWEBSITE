@@ -2,14 +2,15 @@ import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import ImageCarousel from '../ui/ImageCarousel';
-import programLondyn from '../../Assets/programs/program-londyn.pdf';
-import programMalta from '../../Assets/programs/program-malta.pdf';
-import programUsa from '../../Assets/programs/program-usa.pdf';
-import programNeapol from '../../Assets/programs/program-neapol.pdf';
-import programLizbona from '../../Assets/programs/program-lizbona.pdf';
-import programEdynburg from '../../Assets/programs/program-edynburg.pdf';
-import programBarcelona from '../../Assets/programs/program-barcelona.pdf';
-import programAteny from '../../Assets/programs/program-ateny.pdf';
+import programLondyn from '/public/assets/programs/program-londyn.pdf';
+import programMalta from '/assets/programs/program-malta.pdf';
+import programUsa from '/assets/programs/program-usa.pdf';
+import programNeapol from '/assets/programs/program-neapol.pdf';
+import programLizbona from '/assets/programs/program-lizbona.pdf';
+import programEdynburg from '/assets/programs/program-edynburg.pdf';
+import programBarcelona from '/assets/programs/program-barcelona.pdf';
+import programAteny from '/assets/programs/program-ateny.pdf';
+import programKrakow from '/assets/programs/program-krakow.pdf';
 // ... inne importy programów
 
 function FullCard({ destination }) {
@@ -25,7 +26,8 @@ function FullCard({ destination }) {
     lizbona: programLizbona,
     edynburg: programEdynburg,
     barcelona: programBarcelona,
-    ateny: programAteny
+    ateny: programAteny,
+    krakow: programKrakow
   };
 
   return (

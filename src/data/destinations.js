@@ -5,15 +5,15 @@ export const destinations = [
     slug: "londyn",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/londyn.png",
-    mainImage: "/src/assets/images/trips/londyn.png",
+    thumbnail: "/assets/images/trips/londyn.png",
+    mainImage: "/assets/images/trips/londyn.png",
     description: `Z jednej strony tygiel kulturowy zamieszkały przez reprezentantów 
       prawdopodobnie wszystkich grup etnicznych. Z drugiej kwintesencja 
       brytyjskości emanująca wiktoriańską powagą i dumą. Nie tylko te dwa 
       oblicza są prawdziwe. Londyn ma wiele twarzy i masek, a co za tym idzie, 
       jest wiele możliwych perspektyw patrzenia na tą wspaniałą metropolię.
 
-      My - w naszej perspektywie - staramy się wyciągnąc esencję i zgodnie z 
+      My - w naszej perspektywie - staramy się wyciągnąć esencję i zgodnie z 
       naszą ideą, pokazujemy zarówno stronę historyczno-kulturową, jak i tą 
       bardziej obyczajową, luźniejszą. Nasz LONDYN, poza samym zwiedzaniem, 
       jest pewnego rodzaju symulacją życia i poruszania się po mieście.
@@ -25,24 +25,24 @@ export const destinations = [
       jego rytm i przełamania bariery zwiedzający-obiekt, zatarcia granicy 
       między turystą, a mieszkańcem.`,
     gallery: [
-      "/src/Assets/images/gallery/londyn/Londyn_1.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_2.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_3.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_4.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_5.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_6.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_7.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_8.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_9.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_10.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_11.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_12.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_13.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_14.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_15.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_16.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_17.webp",
-      "/src/Assets/images/gallery/londyn/Londyn_18.webp"
+      "/assets/images/gallery/londyn/Londyn_1.webp",
+      "/assets/images/gallery/londyn/Londyn_2.webp",
+      "/assets/images/gallery/londyn/Londyn_3.webp",
+      "/assets/images/gallery/londyn/Londyn_4.webp",
+      "/assets/images/gallery/londyn/Londyn_5.webp",
+      "/assets/images/gallery/londyn/Londyn_6.webp",
+      "/assets/images/gallery/londyn/Londyn_7.webp",
+      "/assets/images/gallery/londyn/Londyn_8.webp",
+      "/assets/images/gallery/londyn/Londyn_9.webp",
+      "/assets/images/gallery/londyn/Londyn_10.webp",
+      "/assets/images/gallery/londyn/Londyn_11.webp",
+      "/assets/images/gallery/londyn/Londyn_12.webp",
+      "/assets/images/gallery/londyn/Londyn_13.webp",
+      "/assets/images/gallery/londyn/Londyn_14.webp",
+      "/assets/images/gallery/londyn/Londyn_15.webp",
+      "/assets/images/gallery/londyn/Londyn_16.webp",
+      "/assets/images/gallery/londyn/Londyn_17.webp",
+      "/assets/images/gallery/londyn/Londyn_18.webp"
     ]
   },
   {
@@ -51,8 +51,8 @@ export const destinations = [
     slug: "malta",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/malta.png",
-    mainImage: "/src/assets/images/trips/malta.png",
+    thumbnail: "/assets/images/trips/malta.png",
+    mainImage: "/assets/images/trips/malta.png",
     description: `Malta to wyjątkowy kierunek na wycieczkę szkolną, który łączy fascynującą 
       historię, różnorodną kulturę i malownicze krajobrazy. Ta śródziemnomorska 
       wyspa oferuje niezliczone możliwości edukacyjne i wrażenia, które na długo 
@@ -69,24 +69,24 @@ export const destinations = [
       relaksu. Zorganizuj wyjazd z nami i odkryj niezwykłą atmosferę tej 
       wyjątkowej wyspy!`,
     gallery: [
-      "/src/Assets/images/gallery/malta/Malta_1.webp",
-      "/src/Assets/images/gallery/malta/Malta_2.webp",
-      "/src/Assets/images/gallery/malta/Malta_3.webp",
-      "/src/Assets/images/gallery/malta/Malta_4.webp",
-      "/src/Assets/images/gallery/malta/Malta_5.webp",
-      "/src/Assets/images/gallery/malta/Malta_6.webp",
-      "/src/Assets/images/gallery/malta/Malta_7.webp",
-      "/src/Assets/images/gallery/malta/Malta_8.webp",
-      "/src/Assets/images/gallery/malta/Malta_9.webp",
-      "/src/Assets/images/gallery/malta/Malta_10.webp",
-      "/src/Assets/images/gallery/malta/Malta_11.webp",
-      "/src/Assets/images/gallery/malta/Malta_12.webp",
-      "/src/Assets/images/gallery/malta/Malta_13.webp",
-      "/src/Assets/images/gallery/malta/Malta_14.webp",
-      "/src/Assets/images/gallery/malta/Malta_15.webp",
-      "/src/Assets/images/gallery/malta/Malta_16.webp",
-      "/src/Assets/images/gallery/malta/Malta_17.webp",
-      "/src/Assets/images/gallery/malta/Malta_18.webp"
+      "/assets/images/gallery/malta/Malta_1.webp",
+      "/assets/images/gallery/malta/Malta_2.webp",
+      "/assets/images/gallery/malta/Malta_3.webp",
+      "/assets/images/gallery/malta/Malta_4.webp",
+      "/assets/images/gallery/malta/Malta_5.webp",
+      "/assets/images/gallery/malta/Malta_6.webp",
+      "/assets/images/gallery/malta/Malta_7.webp",
+      "/assets/images/gallery/malta/Malta_8.webp",
+      "/assets/images/gallery/malta/Malta_9.webp",
+      "/assets/images/gallery/malta/Malta_10.webp",
+      "/assets/images/gallery/malta/Malta_11.webp",
+      "/assets/images/gallery/malta/Malta_12.webp",
+      "/assets/images/gallery/malta/Malta_13.webp",
+      "/assets/images/gallery/malta/Malta_14.webp",
+      "/assets/images/gallery/malta/Malta_15.webp",
+      "/assets/images/gallery/malta/Malta_16.webp",
+      "/assets/images/gallery/malta/Malta_17.webp",
+      "/assets/images/gallery/malta/Malta_18.webp"
     ]
   },
   {
@@ -95,8 +95,8 @@ export const destinations = [
     slug: "barcelona",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/barcelona.png",
-    mainImage: "/src/assets/images/trips/barcelona.png",
+    thumbnail: "/assets/images/trips/barcelona.png",
+    mainImage: "/assets/images/trips/barcelona.png",
     description: `Barcelona to idealny kierunek na wycieczkę szkolną, który łączy edukację 
       z niezapomnianymi wrażeniami. Stolica Katalonii zachwyca swoją różnorodnością 
       – od niezwykłych dzieł Antoniego Gaudíego, takich jak Sagrada Família i Park 
@@ -114,12 +114,12 @@ export const destinations = [
       to doskonałe miejsce, by poszerzyć horyzonty młodzieży i dostarczyć 
       niezapomnianych wspomnień.`,
     gallery: [
-      "/src/Assets/images/gallery/barcelona/Barcelona_1.webp",
-      "/src/Assets/images/gallery/barcelona/Barcelona_2.webp",
-      "/src/Assets/images/gallery/barcelona/Barcelona_3.webp",
-      "/src/Assets/images/gallery/barcelona/Barcelona_4.webp",
-      "/src/Assets/images/gallery/barcelona/Barcelona_5.webp",
-      "/src/Assets/images/gallery/barcelona/Barcelona_6.webp"
+      "/assets/images/gallery/barcelona/Barcelona_1.webp",
+      "/assets/images/gallery/barcelona/Barcelona_2.webp",
+      "/assets/images/gallery/barcelona/Barcelona_3.webp",
+      "/assets/images/gallery/barcelona/Barcelona_4.webp",
+      "/assets/images/gallery/barcelona/Barcelona_5.webp",
+      "/assets/images/gallery/barcelona/Barcelona_6.webp"
     ]
   },
   {
@@ -128,8 +128,8 @@ export const destinations = [
     slug: "usa",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/usa.png",
-    mainImage: "/src/assets/images/trips/usa.png",
+    thumbnail: "/assets/images/trips/usa.png",
+    mainImage: "/assets/images/trips/usa.png",
     description: `Stany Zjednoczone to kraj nieograniczonych możliwości, gdzie każdy stan 
       oferuje unikalne doświadczenia i niezapomniane wrażenia. Od tętniącego 
       życiem Nowego Jorku, przez malowniczy Wielki Kanion, aż po słoneczne 
@@ -148,8 +148,8 @@ export const destinations = [
     slug: "azja",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/asia.png",
-    mainImage: "/src/assets/images/trips/asia.png",
+    thumbnail: "/assets/images/trips/asia.png",
+    mainImage: "/assets/images/trips/asia.png",
     description: `Azja to fascynujący kontynent kontrastów, gdzie nowoczesne metropolie 
       harmonijnie współistnieją z pradawnymi świątyniami. To miejsce, gdzie 
       tradycja spotyka się z przyszłością, tworząc niepowtarzalną mozaikę 
@@ -162,6 +162,12 @@ export const destinations = [
       Odkryj z nami fascynujące smaki, zapachy i kolory Orientu. Każda wyprawa 
       to nie tylko zwiedzanie, ale przede wszystkim głębokie zanurzenie się w 
       kulturze Dalekiego Wschodu.`,
+    gallery: [
+      "/assets/images/gallery/azja/Azja_1.webp",
+      "/assets/images/gallery/azja/Azja_2.webp",
+      "/assets/images/gallery/azja/Azja_3.webp",
+      "/assets/images/gallery/azja/Azja_4.webp"
+    ]
   },
   {
     id: "ateny",
@@ -169,13 +175,23 @@ export const destinations = [
     slug: "ateny",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/ateny.png",
-    mainImage: "/src/assets/images/trips/ateny.png",
+    thumbnail: "/assets/images/trips/ateny.png",
+    mainImage: "/assets/images/trips/ateny.png",
     description: `Ateny to miasto, które przenosi w czasie, oferując młodzieży możliwość odkrycia kolebki europejskiej cywilizacji. Wycieczka szkolna do stolicy Grecji to fascynująca podróż przez historię, mitologię i architekturę. Na uczniów czekają ikoniczne zabytki, takie jak Akropol z Partenonem, Świątynia Zeusa Olimpijskiego czy starożytna Agora, które pozwalają na głębsze zrozumienie kultury antycznej.
 
 Program wycieczki obejmuje także wizytę w nowoczesnym Muzeum Akropolu, gdzie młodzież może zobaczyć wyjątkowe artefakty i zrozumieć kontekst historyczny tych monumentalnych miejsc. Spacer po Place, klimatycznej dzielnicy u stóp Akropolu, ukazuje współczesną, tętniącą życiem stronę Aten.
 
 Zapewniamy wygodny transport i profesjonalne przewodnictwo, aby uczniowie mogli w pełni skorzystać z tej wyjątkowej lekcji historii. Wycieczka do Aten to połączenie edukacji i niezapomnianych wrażeń, które inspirują młodych ludzi na wiele lat`,
+    gallery: [
+      "/assets/images/gallery/ateny/Ateny_1.webp",
+      "/assets/images/gallery/ateny/Ateny_2.webp",
+      "/assets/images/gallery/ateny/Ateny_3.webp",
+      "/assets/images/gallery/ateny/Ateny_4.webp",
+      "/assets/images/gallery/ateny/Ateny_5.webp",
+      "/assets/images/gallery/ateny/Ateny_6.webp",
+      "/assets/images/gallery/ateny/Ateny_7.webp",
+      "/assets/images/gallery/ateny/Ateny_8.webp"
+    ]
   },
   {
     id: "neapol",
@@ -183,27 +199,27 @@ Zapewniamy wygodny transport i profesjonalne przewodnictwo, aby uczniowie mogli 
     slug: "neapol",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/neapol.png",
-    mainImage: "/src/assets/images/trips/neapol.png",
+    thumbnail: "/assets/images/trips/neapol.png",
+    mainImage: "/assets/images/trips/neapol.png",
     description: `Neapol to idealne miejsce na wycieczkę szkolną, która łączy historię, kulturę i niezwykłe widoki. Miasto u stóp Wezuwiusza oferuje uczniom możliwość poznania starożytnych Pompejów, wpisanych na listę UNESCO, oraz doświadczenia włoskiego stylu życia. Neapol zachwyca także zabytkowymi kościołami, wąskimi uliczkami i wyśmienitą pizzą, która narodziła się właśnie tutaj.
 
 W programie wycieczki znajduje się także wizyta na malowniczej wyspie Capri, gdzie uczniowie mogą podziwiać Lazurową Grotę, urokliwe miasteczka i zapierające dech w piersiach widoki z Monte Solaro. Dzięki komfortowemu transportowi i dopracowanemu planowi zwiedzania, młodzież ma szansę zobaczyć zarówno historyczne zabytki, jak i piękno włoskiej natury.
 
 Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświadczenia różnorodności Włoch – wyjazd, który uczniowie zapamiętają na zawsze.`,
     gallery: [
-      "/src/Assets/images/gallery/neapol/Neapol_1.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_2.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_3.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_4.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_5.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_6.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_7.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_8.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_9.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_10.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_11.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_12.webp",
-      "/src/Assets/images/gallery/neapol/Neapol_13.webp"
+      "/assets/images/gallery/neapol/Neapol_1.webp",
+      "/assets/images/gallery/neapol/Neapol_2.webp",
+      "/assets/images/gallery/neapol/Neapol_3.webp",
+      "/assets/images/gallery/neapol/Neapol_4.webp",
+      "/assets/images/gallery/neapol/Neapol_5.webp",
+      "/assets/images/gallery/neapol/Neapol_6.webp",
+      "/assets/images/gallery/neapol/Neapol_7.webp",
+      "/assets/images/gallery/neapol/Neapol_8.webp",
+      "/assets/images/gallery/neapol/Neapol_9.webp",
+      "/assets/images/gallery/neapol/Neapol_10.webp",
+      "/assets/images/gallery/neapol/Neapol_11.webp",
+      "/assets/images/gallery/neapol/Neapol_12.webp",
+      "/assets/images/gallery/neapol/Neapol_13.webp"
     ]
   },
   {
@@ -212,8 +228,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "teneryfa",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/teneryfa.png",
-    mainImage: "/src/assets/images/trips/teneryfa.png",
+    thumbnail: "/assets/images/trips/teneryfa.png",
+    mainImage: "/assets/images/trips/teneryfa.png",
     description: `Teneryfa, największa z Wysp Kanaryjskich, to wyjątkowe miejsce na wycieczkę 
       szkolną, które oferuje niezapomniane atrakcje w otoczeniu wulkanicznych 
       krajobrazów i egzotycznej przyrody. W programie wycieczki znajduje się 
@@ -228,6 +244,13 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
       Dzięki profesjonalnie zorganizowanemu transportowi i ciekawemu programowi, 
       wycieczka na Teneryfę to doskonałe połączenie nauki, przygody i odpoczynku. 
       Teneryfa to wyjazd, który inspiruje i pozostawia niezapomniane wspomnienia.`,
+    gallery: [
+      "/assets/images/gallery/teneryfa/Teneryfa_1.webp",
+      "/assets/images/gallery/teneryfa/Teneryfa_2.webp",
+      "/assets/images/gallery/teneryfa/Teneryfa_3.webp",
+      "/assets/images/gallery/teneryfa/Teneryfa_4.webp",
+      "/assets/images/gallery/teneryfa/Teneryfa_5.webp"
+    ]
   },
   {
     id: "edynburg",
@@ -235,8 +258,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "edynburg",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/edynburg.png",
-    mainImage: "/src/assets/images/trips/edynburg.png",
+    thumbnail: "/assets/images/trips/edynburg.png",
+    mainImage: "/assets/images/trips/edynburg.png",
     description: `Edynburg, nazywany "Atenami Północy", to idealne miejsce na wycieczkę 
       szkolną, która łączy historię, kulturę i niesamowite krajobrazy. Stolica 
       Szkocji oferuje niezapomniane doświadczenia, od zwiedzania majestatycznego 
@@ -253,14 +276,14 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
       się idealnym kierunkiem dla młodzieży, łączącym edukację z wyjątkowym 
       klimatem i szkocką gościnnością.`,
     gallery: [
-      "/src/Assets/images/gallery/edynburg/Edynburg_1.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_2.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_3.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_4.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_5.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_6.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_7.webp",
-      "/src/Assets/images/gallery/edynburg/Edynburg_8.webp"
+      "/assets/images/gallery/edynburg/Edynburg_1.webp",
+      "/assets/images/gallery/edynburg/Edynburg_2.webp",
+      "/assets/images/gallery/edynburg/Edynburg_3.webp",
+      "/assets/images/gallery/edynburg/Edynburg_4.webp",
+      "/assets/images/gallery/edynburg/Edynburg_5.webp",
+      "/assets/images/gallery/edynburg/Edynburg_6.webp",
+      "/assets/images/gallery/edynburg/Edynburg_7.webp",
+      "/assets/images/gallery/edynburg/Edynburg_8.webp"
     ]
   },
   {
@@ -269,8 +292,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "dublin",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/dublin.png",
-    mainImage: "/src/assets/images/trips/dublin.png",
+    thumbnail: "/assets/images/trips/dublin.png",
+    mainImage: "/assets/images/trips/dublin.png",
     description: `Dublin, serce Irlandii, to miejsce, które idealnie łączy historię z 
       nowoczesnością, oferując wyjątkowe doświadczenia dla grup szkolnych. 
       Stolica słynie z przyjaznej atmosfery, a jej najważniejsze atrakcje 
@@ -292,8 +315,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "lizbona",
     category: "wycieczki-zagraniczne",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/lizbona.png",
-    mainImage: "/src/assets/images/trips/lizbona.png",
+    thumbnail: "/assets/images/trips/lizbona.png",
+    mainImage: "/assets/images/trips/lizbona.png",
     description: `Lizbona to niezwykła stolica Portugalii, idealna na wycieczkę szkolną, 
       która łączy historię, kulturę i piękne widoki. Miasto zachwyca swoim 
       niepowtarzalnym klimatem – od wąskich uliczek Alfamy po majestatyczne 
@@ -310,19 +333,19 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
       nowoczesnością, oferując uczniom lekcję historii i kultury w wyjątkowej 
       oprawie.`,
     gallery: [
-      "/src/Assets/images/gallery/lizbona/lizbona1.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona2.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona3.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona4.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona5.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona6.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona7.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona8.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona9.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona10.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona11.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona12.webp",
-      "/src/Assets/images/gallery/lizbona/lizbona13.webp"
+      "/assets/images/gallery/lizbona/lizbona1.webp",
+      "/assets/images/gallery/lizbona/lizbona2.webp",
+      "/assets/images/gallery/lizbona/lizbona3.webp",
+      "/assets/images/gallery/lizbona/lizbona4.webp",
+      "/assets/images/gallery/lizbona/lizbona5.webp",
+      "/assets/images/gallery/lizbona/lizbona6.webp",
+      "/assets/images/gallery/lizbona/lizbona7.webp",
+      "/assets/images/gallery/lizbona/lizbona8.webp",
+      "/assets/images/gallery/lizbona/lizbona9.webp",
+      "/assets/images/gallery/lizbona/lizbona10.webp",
+      "/assets/images/gallery/lizbona/lizbona11.webp",
+      "/assets/images/gallery/lizbona/lizbona12.webp",
+      "/assets/images/gallery/lizbona/lizbona13.webp"
     ]
   },
   {
@@ -331,8 +354,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "krakow",
     category: "wycieczki-krajowe",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/krakow.png",
-    mainImage: "/src/assets/images/trips/krakow.png",
+    thumbnail: "/assets/images/trips/krakow.png",
+    mainImage: "/assets/images/trips/krakow.png",
     description: `Kraków to jedno z najpiękniejszych miast Polski, które oferuje niezliczone 
       atrakcje dla grup szkolnych. Dawna stolica kraju jest miejscem, gdzie 
       historia, kultura i tradycja przenikają się na każdym kroku, zapewniając 
@@ -354,8 +377,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "obozy-sportowe",
     category: "obozy-sportowe",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/skate.png",
-    mainImage: "/src/assets/images/trips/skate.png",
+    thumbnail: "/assets/images/trips/skate.png",
+    mainImage: "/assets/images/trips/skate.png",
     description: `Nasze obozy sportowe to idealne połączenie aktywnego wypoczynku, 
       profesjonalnego treningu i świetnej zabawy. Pod okiem doświadczonych 
       trenerów młodzież rozwija swoje umiejętności w wybranej dyscyplinie 
@@ -375,8 +398,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "obozy-jezykowe",
     category: "obozy-jezykowe",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/school.png",
-    mainImage: "/src/assets/images/trips/school.png",
+    thumbnail: "/assets/images/trips/school.png",
+    mainImage: "/assets/images/trips/school.png",
     description: `Obozy językowe to innowacyjne podejście do nauki języków obcych, gdzie 
       edukacja spotyka się z rozrywką. Zajęcia prowadzone przez native speakerów 
       i doświadczonych lektorów odbywają się w formie interaktywnych warsztatów, 
@@ -397,8 +420,8 @@ Neapol to nie tylko nauka, ale także inspiracja i wyjątkowa okazja do doświad
     slug: "zaproponuj-wycieczke",
     category: "zaproponuj-wycieczke",
     priceFrom: 2499,
-    thumbnail: "/src/assets/images/trips/londyn.png",
-    mainImage: "/src/assets/images/trips/londyn.png",
+    thumbnail: "/assets/images/trips/londyn.png",
+    mainImage: "/assets/images/trips/londyn.png",
     description: `Masz pomysł na wyjątkową wycieczkę szkolną? Chcesz zorganizować wyjazd 
       dostosowany do specyficznych potrzeb i zainteresowań Twojej grupy? Jesteśmy 
       tu, aby pomóc w realizacji Twoich planów!

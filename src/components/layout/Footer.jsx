@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import bigBenIcon from "../../Assets/icons/bigben.svg";
-import londonEyeIcon from "../../Assets/icons/londoneye.svg";
-import statueIcon from "../../Assets/icons/liberty.svg";
-import sagradaIcon from "../../Assets/icons/sagrada.svg";
-import logo from "../../Assets/images/logo.svg";
+import bigBenIcon from "/public/assets/icons/bigben.svg";
+import londonEyeIcon from "/public/assets/icons/londoneye.svg";
+import statueIcon from "/public/assets/icons/liberty.svg";
+import sagradaIcon from "/public/assets/icons/sagrada.svg";
+import logo from "/public/assets/images/logo.svg";
 import {
   FaFacebookF,
   FaInstagram,
