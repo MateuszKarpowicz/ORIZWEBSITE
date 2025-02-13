@@ -189,7 +189,7 @@
 @media screen and (max-width: 480px) {
   .full-card__header {
     width: 90%;
-    padding: 10px;
+    border-radius: 0;
     min-height: auto;
   }
 
@@ -237,8 +237,7 @@
 
 @media screen and (max-width: 380px) {
   .full-card__header {
-    width: 95%;
-    padding: 8px;
+    width: 90%;
   }
 
   .full-card__content {
