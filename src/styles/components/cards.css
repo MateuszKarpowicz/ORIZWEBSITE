@@ -259,3 +259,13 @@
     display: none;
   }
 }
+@media (max-width: 1025px) {
+  .mini-card__price {
+    width: 30px;
+    height: 30px;
+    font-size: 6px;
+    line-height: 8px;
+    top: -2px;
+    right: 0px;
+  }
+}

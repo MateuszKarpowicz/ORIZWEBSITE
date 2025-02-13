@@ -58,7 +58,7 @@ function Navbar() {
             <Link to="/about" className="navbar__link">
               O NAS
             </Link>
-            <Link 
+            <Link
               to="https://oferty.oriz.pl"
               className="navbar__button"
               target="_blank"
@@ -140,20 +140,8 @@ function Navbar() {
             >
               GENERATOR OFERT
             </Link>
-          </div>
 
-          <button
-            className="navbar__categories-toggle"
-            onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
-          >
-            KATEGORIE
-          </button>
-
-          <div
-            className={`navbar__categories-menu ${
-              isCategoriesOpen ? "navbar__categories-menu--active" : ""
-            }`}
-          >
+            {/* Kategorie bezpośrednio w menu */}
             {categories.map((category) => (
               <Link
                 key={category.id}
@@ -163,10 +151,7 @@ function Navbar() {
                     ? "navbar__filter__button__item--active"
                     : ""
                 }`}
-                onClick={() => {
-                  setIsMenuOpen(false);
-                  setIsCategoriesOpen(false);
-                }}
+                onClick={() => setIsMenuOpen(false)}
               >
                 {category.label}
               </Link>

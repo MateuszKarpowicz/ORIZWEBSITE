@@ -272,7 +272,7 @@
   }
   .navbar__filter__button__item {
     font-size: 16px;
-    padding: 2px;
+    padding: 5px;
   }
   .navbar__container__lower {
     margin-top: 60px;
@@ -404,10 +404,10 @@
 
   .navbar__mobile-links .navbar__link {
     color: var(--color-text);
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     width: 100%;
-    padding: 10px;
+    padding: 2px;
   }
 
   .navbar__mobile-links .navbar__button {
@@ -471,10 +471,6 @@
 
   .navbar__mobile .logo__image {
     max-height: 60px;
-  }
-
-  .navbar__mobile-links .navbar__link {
-    font-size: 16px;
   }
 
   .navbar__mobile-links .navbar__button {
