@@ -41,7 +41,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 53px;
   color: #ffffff;
   text-align: center;
@@ -129,21 +129,21 @@
     align-items: center;
   }
   .full-card__image-container {
-    width: 200px;
+    width: 210px;
     height: 300px;
     margin-left: 20px;
   }
   .full-card__title-circle {
     width: 80px;
     height: 80px;
-    left: 520px;
-    top: 5px;
+    left: 220px;
+    top: 8px;
   }
   .full-card__title {
     font-size: 14px;
   }
   .full-card__description {
-    width: 800px;
+    max-width: 550px;
     font-size: 17px;
     margin-left: 40px;
     padding: 10px;
@@ -158,14 +158,14 @@
   }
 
   .full-card__title-circle {
-    width: 90px;
-    height: 90px;
-    left: 430px;
+    width: 80px;
+    height: 80px;
+    left: 150px;
     top: 10px;
   }
 
   .full-card__title {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .full-card__description {
@@ -173,7 +173,7 @@
     font-size: 15px;
     line-height: 20px;
     padding-top: 0px;
-    max-height: 240px;
+    max-height: 270px;
   }
 
   .full-card__actions {
@@ -222,7 +222,7 @@
     top: 5px;
   }
   .full-card__title {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .full-card__actions {
@@ -256,7 +256,7 @@
   }
 
   .full-card__title {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 14px;
   }
 
@@ -269,6 +269,6 @@
 
   .full-card__actions {
     margin-top: 3px;
-    gap: 3px;
+    gap: 10px;
   }
 }
