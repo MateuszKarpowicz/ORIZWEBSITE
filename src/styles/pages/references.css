@@ -1,6 +1,6 @@
 .references-page {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   padding: 20px;
 }
 
@@ -18,20 +18,19 @@
 }
 
 .references-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-evenly;
   gap: 20px;
-  padding: 0 40px;
-}
-
-@media (max-width: 1024px) {
-  .references-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 768px) {
-  .references-grid {
-    grid-template-columns: 1fr;
+  .references__container {
+    position: relative;
+    margin: 0 auto;
   }
-} 
+  .references-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

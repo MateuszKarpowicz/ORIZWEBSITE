@@ -1,18 +1,16 @@
-import { useState } from 'react';
-import ReferenceCard from '../components/cards/ReferenceCard';
-import { references } from '../data/references';
-import SEO from '../components/SEO';
+import { useState } from "react";
+import ReferenceCard from "../components/cards/ReferenceCard";
+import { references } from "../data/references";
+import SEO from "../components/SEO";
 
 function References() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const scroll = (direction) => {
-    if (direction === 'right') {
-      setCurrentIndex(prev => 
-        prev + 3 >= references.length ? 0 : prev + 3
-      );
+    if (direction === "right") {
+      setCurrentIndex((prev) => (prev + 3 >= references.length ? 0 : prev + 3));
     } else {
-      setCurrentIndex(prev => 
+      setCurrentIndex((prev) =>
         prev === 0 ? Math.floor((references.length - 1) / 3) * 3 : prev - 3
       );
     }
@@ -22,7 +20,7 @@ function References() {
 
   return (
     <div className="references-page">
-      <SEO 
+      <SEO
         title="Referencje"
         description="Zobacz opinie naszych klientów o biurze podróży ORIZ. Poznaj doświadczenia osób, które nam zaufały i skorzystały z naszych usług."
         keywords="opinie ORIZ, referencje biuro podróży, opinie klientów, zadowoleni klienci"
@@ -30,9 +28,9 @@ function References() {
       />
       <div className="references__container">
         {references.length > 3 && (
-          <button 
+          <button
             className="scroll-button scroll-button--left"
-            onClick={() => scroll('left')}
+            onClick={() => scroll("left")}
             aria-label="Przewiń w lewo"
           >
             ←
@@ -40,18 +38,15 @@ function References() {
         )}
 
         <div className="references-grid">
-          {visibleReferences.map(reference => (
-            <ReferenceCard 
-              key={reference.id} 
-              reference={reference} 
-            />
+          {visibleReferences.map((reference) => (
+            <ReferenceCard key={reference.id} reference={reference} />
           ))}
         </div>
 
         {references.length > 3 && (
-          <button 
+          <button
             className="scroll-button scroll-button--right"
-            onClick={() => scroll('right')}
+            onClick={() => scroll("right")}
             aria-label="Przewiń w prawo"
           >
             →
@@ -62,4 +57,4 @@ function References() {
   );
 }
 
-export default References; 
+export default References;
