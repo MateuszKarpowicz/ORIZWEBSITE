@@ -6,26 +6,29 @@
   background: #ffffff;
   margin: 0 auto;
 }
-
+.full-card__content {
+  display: flex;
+}
 .full-card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
-  width: 80%;
+  width: 90%;
   height: auto;
   left: 50%;
   transform: translateX(-50%);
-  top: 10px;
   background: #2955a4;
   border-radius: 35px;
-  padding: 40px;
-  display: flex;
+  padding: 25px;
 }
 
 .full-card__title-circle {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 300px;
-  top: 20px;
+  width: 130px;
+  height: 130px;
+  left: 450px;
+  top: 5px;
   background: #ef5022;
   border-radius: 50%;
   display: flex;
@@ -38,7 +41,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 53px;
   color: #ffffff;
   text-align: center;
@@ -69,12 +72,12 @@
 }
 
 .full-card__actions {
-  top: -50px;
   position: relative;
   display: flex;
   justify-content: space-around;
   width: 100%;
   bottom: auto;
+  padding-top: 10px;
 }
 
 .full-card__action-button {
@@ -96,204 +99,177 @@
 
 @media screen and (max-width: 1466px) {
   .full-card__header {
-    width: 90%;
-    top: 25px;
-    padding: 30px;
+    width: 85%;
+    padding: 20px;
   }
 
   .full-card__image-container {
-    width: 280px;
-    height: 320px;
-  }
-
-  .full-card__title-circle {
-    width: 120px;
-    height: 120px;
-    left: 230px;
-    font-size: 19px;
-  }
-  .full-card__title {
-    font-size: 20px;
+    width: 250px;
+    height: 300px;
   }
   .full-card__description {
     width: 700px;
     font-size: 16px;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
-  .full-card__actions {
-    margin-top: 23px;
+  .full-card__title-circle {
+    width: 100px;
+    height: 100px;
+    left: 280px;
   }
-
-  .full-card__action-button {
-    width: 200px;
-    height: 40px;
+  .full-card__title {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
+  .full-card__content {
+    align-items: center;
+  }
   .full-card__image-container {
-    width: 235px;
-    height: 330px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
   }
-
   .full-card__title-circle {
-    left: 200px;
+    width: 80px;
+    height: 80px;
+    left: 520px;
+    top: 5px;
   }
-
+  .full-card__title {
+    font-size: 14px;
+  }
   .full-card__description {
-    width: 600px;
-    margin-left: 80px;
-    padding-bottom: 20px;
-  }
-  .full-card__title-circle {
-    width: 100px;
-    height: 100px;
-    left: 200px;
-    font-size: 19px;
-  }
-  .full-card__actions {
-    margin-top: 22px;
+    width: 800px;
+    font-size: 17px;
+    margin-left: 40px;
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .full-card__header {
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-    height: 45vh;
-  }
-
   .full-card__image-container {
-    width: 280px;
-    height: 320px;
+    width: 210px;
+    height: 250px;
     margin: 0 auto;
-  }
-
-  .full-card__title-circle {
-    width: 100px;
-    height: 100px;
-    left: 65%;
-    transform: translateX(-50%);
-    top: -20px;
-  }
-
-  .full-card__title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .full-card__description {
-    width: 95%;
-    margin: 20px auto 0;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .full-card__actions {
-    align-items: center;
-    gap: 15px;
-    margin-top: 30px;
-  }
-
-  .full-card__action-button {
-    max-width: 200px;
-    height: 35px;
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 790px) {
-  .full-card__header {
-    height: 52vh;
-  }
-  .full-card__action-button {
-    max-width: 170px;
-    height: 30px;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .full-card {
-    margin: 300px auto 0;
-    height: calc(100vh - 120px);
-  }
-
-  .full-card__header {
-    width: 90%;
-    padding: 15px;
-    border-radius: 20px;
-  }
-
-  .full-card__image-container {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px;
   }
 
   .full-card__title-circle {
     width: 90px;
     height: 90px;
-    top: -25px;
-    left: 80%;
+    left: 430px;
+    top: 10px;
   }
 
   .full-card__title {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .full-card__description {
+    width: 80%;
+    font-size: 15px;
     line-height: 20px;
+    padding-top: 0px;
+    max-height: 240px;
   }
 
-  .full-card__description {
-    width: 95%;
+  .full-card__actions {
+    align-items: center;
+    gap: 15px;
+  }
+  .full-card__action-button {
+    height: 30px;
     font-size: 12px;
-    line-height: 18px;
-    margin-top: 15px;
-  }
-
-  .full-card__actions {
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .full-card__action-button {
-    width: 100px;
-    height: 25px;
-    font-size: 9px;
-    border-radius: 17px;
-    justify-content: center;
   }
 }
+
 @media screen and (max-width: 480px) {
-  .full-card__actions {
-    margin-top: 45px;
+  .full-card__header {
+    width: 90%;
+    padding: 10px;
+    min-height: auto;
   }
-  .full-card__action-button {
-    height: 20px;
+
+  .full-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
-}
-@media screen and (max-width: 390px) {
-  .full-card {
-    margin: 180px auto 0;
+
+  .full-card__image-container {
+    width: 200px;
+    height: 250px;
+    margin: 5px auto;
   }
+
   .full-card__description {
-    width: 95%;
-    font-size: 10px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 5px 0;
+    max-height: 210px;
+    overflow-y: auto;
+    padding: 0 5px;
   }
   .full-card__title-circle {
-    width: 70px;
-    height: 70px;
-    top: -15px;
-    left: 80%;
+    width: 60px;
+    height: 60px;
+    left: 270px;
+    top: 5px;
   }
   .full-card__title {
     font-size: 12px;
   }
+
+  .full-card__actions {
+    padding: 10px;
+  }
+
+  .full-card__action-button {
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .full-card__header {
-    width: 85%;
+    width: 95%;
+    padding: 8px;
+  }
+
+  .full-card__content {
+    gap: 3px;
+  }
+
+  .full-card__image-container {
+    height: 140px;
+    width: 130px;
+  }
+
+  .full-card__title-circle {
+    width: 50px;
+    height: 50px;
+    left: 225px;
+  }
+
+  .full-card__title {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .full-card__description {
+    font-size: 11px;
+    line-height: 13px;
+    max-height: 185px;
+    margin: 3px 0;
+  }
+
+  .full-card__actions {
+    margin-top: 3px;
+    gap: 3px;
   }
 }
