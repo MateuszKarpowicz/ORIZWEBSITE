@@ -1,29 +1,54 @@
 @import "../base/variables.css";
 
 .layout {
+  min-height: 100dvh; /* używamy dvh zamiast vh */
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   width: 100%;
   background: var(--color-white);
   font-family: var(--font-family);
   overflow-x: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
   position: relative;
-  height: 100vh; /* stała wysokość */
+  padding-bottom: env(
+    safe-area-inset-bottom
+  ); /* dodajemy padding dla bezpiecznego obszaru */
 }
 
 .layout__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   flex: 1;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: var(--container-max-width);
   margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0 var(--container-padding);
+  padding-bottom: env(
+    safe-area-inset-bottom
+  ); /* dodajemy padding dla bezpiecznego obszaru */
   position: relative;
   overflow-y: hidden;
-  padding-bottom: 50px;
 }
 
 /* @media (max-width: 1500px)  */
+
+/* Dodajemy style dla footera */
+.footer {
+  margin-top: auto;
+  padding-bottom: env(
+    safe-area-inset-bottom
+  ); /* dodajemy padding dla bezpiecznego obszaru */
+}
+
+/* Media query dla urządzeń mobilnych */
+@media screen and (max-width: 768px) {
+  .layout {
+    padding-bottom: calc(
+      env(safe-area-inset-bottom) + 60px
+    ); /* dodatkowy padding na dole */
+  }
+  .layout__content {
+    margin-bottom: 0px;
+  }
+}

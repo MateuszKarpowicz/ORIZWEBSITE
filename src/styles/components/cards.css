@@ -180,16 +180,6 @@
 }
 
 @media (max-width: 1200px) {
-  .mini-card {
-    flex: 0 0 250px;
-    width: 250px;
-    height: 280px;
-  }
-
-  .mini-card__image-container {
-    height: 280px;
-  }
-
   .mini-card__price {
     width: 80px;
     height: 80px;
