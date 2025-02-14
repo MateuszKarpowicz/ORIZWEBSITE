@@ -79,15 +79,18 @@
 
 @media (max-width: 480px) {
   .about {
-    margin-top: -10px;
+    margin-top: 25px;
   }
 
   .about__title {
     font-size: 24px;
+    display: none;
+  
   }
 
   .about__content p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.2;
   }
 
   .about__section-title {
