@@ -14,7 +14,7 @@
 @import "./pages/about.css";
 @import "./pages/policy.css";
 @import "./components/ui/image-carousel.css";
-
+@import "./components/cards/reference-card.css";
 #root {
   min-height: 100vh;
   display: flex;

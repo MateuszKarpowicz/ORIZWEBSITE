@@ -4,7 +4,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
-  min-height: calc(100vh - 220px);
+  max-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,8 @@
 @media (max-width: 768px) {
   .propose-trip {
     margin: 1.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
+    max-height: 100vh;
   }
 
   .propose-trip__title {
