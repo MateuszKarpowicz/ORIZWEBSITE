@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
   z-index: 1000;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .carousel-main {
@@ -20,9 +23,17 @@
 }
 
 .carousel-image {
-  max-height: calc(100vh - 150px); /* Zostawiamy miejsce na thumbnails */
-  max-width: 90vw;
+  max-height: calc(
+    100vh - 180px
+  ); /* Zmniejszona wysokość, zostawiamy więcej miejsca na thumbnails */
+  max-width: 80vw; /* Zmniejszona szerokość */
   object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-image.loaded {
+  opacity: 1;
 }
 
 .carousel-close {
@@ -62,28 +73,33 @@
 
 /* Style dla paska miniaturek */
 .carousel-thumbnails {
-  height: 100px;
+  height: 120px; /* Zwiększona wysokość paska */
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   gap: 10px;
-  padding: 10px;
+  padding: 15px;
   overflow-x: auto;
   justify-content: center;
+  margin-bottom: 10px; /* Dodatkowy margines na dole */
 }
 
 .carousel-thumbnail {
-  height: 80px;
-  width: 80px;
+  height: 90px; /* Większa wysokość miniaturki */
+  width: 90px; /* Kwadratowe miniaturki */
+  flex: 0 0 90px; /* Zapobiega rozciąganiu */
   cursor: pointer;
   opacity: 0.6;
   transition: opacity 0.3s;
   border: 2px solid transparent;
+  border-radius: 8px; /* Delikatnie zaokrąglone rogi */
 }
 
 .carousel-thumbnail img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
+  border-radius: 6px;
+  transform: translateZ(0);
 }
 
 .carousel-thumbnail:hover {
@@ -98,4 +114,51 @@
 /* Ukrywamy scrollbar ale zachowujemy funkcjonalność */
 .carousel-thumbnails::-webkit-scrollbar {
   display: none;
-} 
+}
+
+.carousel-loader {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+}
+
+/* Wersja mobilna */
+@media (max-width: 768px) {
+  .carousel-image {
+    max-height: calc(100vh - 150px);
+    max-width: 90vw;
+  }
+
+  .carousel-thumbnails {
+    height: 100px;
+    padding: 10px;
+  }
+
+  .carousel-thumbnail {
+    height: 80px;
+    width: 80px;
+    flex: 0 0 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-main {
+    padding: 20px;
+  }
+
+  .carousel-thumbnails {
+    height: 80px; /* Mniejsza wysokość paska */
+    padding: 8px;
+  }
+
+  .carousel-thumbnail {
+    height: 60px; /* Mniejsze, ale proporcjonalne miniaturki */
+    width: 60px;
+    flex: 0 0 60px;
+  }
+
+  .carousel-nav {
+    font-size: 24px; /* Mniejsze strzałki na mobile */
+    padding: 10px;
+  }
+}
