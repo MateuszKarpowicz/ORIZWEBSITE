@@ -61,8 +61,13 @@
 
 @media (max-width: 768px) {
   .contact {
-    min-height: calc(100vh - 150px);
-    margin-top: 15px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contact__content {
+    height: 100%;
+    width: 100%;
   }
 
   .contact__footer {

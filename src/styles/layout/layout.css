@@ -48,5 +48,6 @@
   }
   .layout__content {
     margin-bottom: 0px;
+    padding-top: 50px;
   }
 }
