@@ -1,18 +1,16 @@
 @import "../base/variables.css";
 
 .layout {
-  min-height: 100dvh; /* używamy dvh zamiast vh */
+  min-height: 100vh; /* używamy dvh zamiast vh */
   display: flex;
   flex-direction: column;
   width: 100%;
   background: var(--color-white);
   font-family: var(--font-family);
-  overflow-x: hidden;
-  overflow-y: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
+  overflow: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
   position: relative;
-  padding-bottom: env(
-    safe-area-inset-bottom
-  ); /* dodajemy padding dla bezpiecznego obszaru */
+  padding-bottom: env(safe-area-inset-bottom);
+  touch-action: none;
 }
 
 .layout__content {

@@ -225,10 +225,6 @@
     font-size: 10px;
   }
 
-  .full-card__actions {
-    padding: 10px;
-  }
-
   .full-card__action-button {
     height: 25px;
     font-size: 10px;
@@ -238,21 +234,24 @@
 @media screen and (max-width: 380px) {
   .full-card__header {
     width: 90%;
+    padding: 20px;
   }
 
   .full-card__content {
     gap: 3px;
+    overflow: hidden;
+    touch-action: none;
   }
 
   .full-card__image-container {
-    height: 140px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
   }
 
   .full-card__title-circle {
     width: 50px;
     height: 50px;
-    left: 225px;
+    left: 210px;
   }
 
   .full-card__title {
@@ -262,13 +261,12 @@
 
   .full-card__description {
     font-size: 11px;
-    line-height: 13px;
-    max-height: 185px;
+    line-height: 12px;
+    max-height: 200px;
     margin: 3px 0;
   }
 
   .full-card__actions {
-    margin-top: 3px;
     gap: 10px;
   }
 }

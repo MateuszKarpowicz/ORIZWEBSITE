@@ -87,18 +87,25 @@
   margin-top: 20px;
 }
 
-/* Responsywność dla mniejszych ekranów */
-@media (max-width: 768px) {
-  .propose-trip {
-    margin: 1.5rem;
-    padding: 2rem;
-    max-height: 100vh;
+@media (max-width: 1120px) {
+  .propose-trip__title {
+    font-size: 2rem;
+    padding: 20px 0;
   }
-
+  .propose-trip__form {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 490px) {
   .propose-trip__title {
     font-size: 1.5rem;
+    padding: 5px 0;
+  }
+  .propose-trip__form {
+    padding: 0;
   }
   .form-group textarea {
+    min-height: 50px;
     height: 50px;
   }
 }
