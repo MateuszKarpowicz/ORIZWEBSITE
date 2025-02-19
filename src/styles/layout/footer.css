@@ -252,19 +252,15 @@
   .footer__company-info {
     font-size: 10px;
   }
-  .footer__icons {
-    top: -63px;
-    gap: 90px;
-  }
 
   .footer__content {
-    padding: 10px 0;
+    padding-bottom: 50px;
   }
   .footer__branding {
     display: none;
   }
   .footer__icons {
-    gap: 20px;
+    display: none;
   }
   .footer__social {
     margin: 0;
@@ -275,12 +271,7 @@
 }
 @media (max-width: 420px) {
   .footer__icons {
-    gap: 10px;
-    top: -43px;
-  }
-  .footer__icon {
-    width: 40px;
-    height: 40px;
+    display: none;
   }
   .footer__columns {
     gap: 5px;
