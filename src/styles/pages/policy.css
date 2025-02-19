@@ -2,7 +2,6 @@
 .standards,
 .cookies,
 .terms {
-  max-width: 1200px;
   padding: 40px 20px;
   min-height: calc(100vh - 400px);
   display: flex;
@@ -38,6 +37,7 @@
 .standards__content,
 .cookies__content,
 .terms__content {
+  text-align: center;
   line-height: 1.6;
   font-size: 16px;
   color: var(--color-text);
