@@ -75,6 +75,15 @@ function ImageCarousel({ images, onClose }) {
     preloadNextImage(currentIndex);
   };
 
+  // Dodajemy/usuwamy klasę dla body przy montowaniu/odmontowywaniu komponentu
+  useEffect(() => {
+    document.body.classList.add("carousel-open");
+
+    return () => {
+      document.body.classList.remove("carousel-open");
+    };
+  }, []);
+
   return (
     <div
       className="carousel-overlay"

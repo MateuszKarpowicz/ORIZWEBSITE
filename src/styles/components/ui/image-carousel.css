@@ -11,6 +11,15 @@
   will-change: transform;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow: hidden; /* Zapobiegamy scrollowaniu */
+}
+
+/* Dodajemy style dla body gdy karuzela jest otwarta */
+body.carousel-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-main {
@@ -20,6 +29,7 @@
   justify-content: center;
   position: relative;
   padding: 40px;
+  overflow: hidden; /* Zapobiegamy scrollowaniu */
 }
 
 .carousel-image {
@@ -73,14 +83,16 @@
 
 /* Style dla paska miniaturek */
 .carousel-thumbnails {
-  height: 120px; /* Zwiększona wysokość paska */
+  height: 120px;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   gap: 10px;
   padding: 15px;
   overflow-x: auto;
+  overflow-y: hidden; /* Tylko poziomy scroll */
   justify-content: center;
-  margin-bottom: 10px; /* Dodatkowy margines na dole */
+  margin-bottom: 0; /* Usuwamy margines na dole */
+  -webkit-overflow-scrolling: touch; /* Płynny scroll na iOS */
 }
 
 .carousel-thumbnail {

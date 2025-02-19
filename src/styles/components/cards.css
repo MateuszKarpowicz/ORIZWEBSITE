@@ -216,10 +216,11 @@
   }
 
   .mini-card__price {
-    width: 65px;
-    height: 65px;
-    font-size: 10px;
-    line-height: 13px;
+    width: 30px;
+    height: 30px;
+    font-size: 6px;
+    line-height: 8px;
+    top: -2px;
     right: 0px;
   }
 
@@ -249,13 +250,13 @@
     display: none;
   }
 }
-@media (max-width: 1025px) {
-  .mini-card__price {
-    width: 30px;
+
+@media (max-width: 390px) {
+  .mini-card__title-container {
+    width: 100px;
     height: 30px;
-    font-size: 6px;
-    line-height: 8px;
-    top: -2px;
-    right: 0px;
+  }
+  .mini-card__title {
+    font-size: 10px;
   }
 }

@@ -7,7 +7,8 @@
   width: 100%;
   background: var(--color-white);
   font-family: var(--font-family);
-  overflow-x: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
+  overflow-x: hidden;
+  overflow-y: hidden; /* zapobiega poziomemu scrollowaniu całej strony */
   position: relative;
   padding-bottom: env(
     safe-area-inset-bottom
@@ -28,7 +29,6 @@
     safe-area-inset-bottom
   ); /* dodajemy padding dla bezpiecznego obszaru */
   position: relative;
-  overflow-y: hidden;
 }
 
 /* @media (max-width: 1500px)  */
