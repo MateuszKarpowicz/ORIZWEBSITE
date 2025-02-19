@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import ImageCarousel from "../ui/ImageCarousel";
-import programLondyn from "/public/assets/programs/program-londyn.pdf";
+import programLondyn from '/assets/programs/program-londyn.pdf';
 import programMalta from "/assets/programs/program-malta.pdf";
 import programUsa from "/assets/programs/program-usa.pdf";
 import programNeapol from "/assets/programs/program-neapol.pdf";
