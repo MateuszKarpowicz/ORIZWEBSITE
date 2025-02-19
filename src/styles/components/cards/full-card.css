@@ -5,6 +5,7 @@
   width: 100%;
   background: #ffffff;
   margin: 0 auto;
+  touch-action: none;
 }
 .full-card__content {
   display: flex;
@@ -169,6 +170,7 @@
   }
 
   .full-card__description {
+    touch-action: none;
     width: 80%;
     font-size: 15px;
     line-height: 20px;
@@ -191,9 +193,11 @@
     width: 90%;
     border-radius: 0;
     min-height: auto;
+    touch-action: none;
   }
 
   .full-card__content {
+    touch-action: none;
     display: flex;
     flex-direction: column;
     align-items: center;

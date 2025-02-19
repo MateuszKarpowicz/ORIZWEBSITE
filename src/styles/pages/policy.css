@@ -14,7 +14,7 @@
 
 .standards {
   margin-top: -150px;
-} 
+}
 
 .policy__title,
 .standards__title,
@@ -86,12 +86,14 @@
   .terms__title {
     font-size: 24px;
     margin-bottom: 20px;
+    padding-top: 50px;
   }
 
   .policy__content,
   .standards__content,
   .cookies__content,
   .terms__content {
+    text-align: center;
     font-size: 14px;
   }
 
@@ -114,4 +116,3 @@
   min-width: 250px;
   text-align: center;
 }
-
